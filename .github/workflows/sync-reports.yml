@@ -28,12 +28,3 @@ jobs:
 
       - name: Run sync pipeline
         run: python -m brh_reports run
-
-      - name: Upload generated artifacts
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: brh-reports-output
-          path: |
-            reports/
-            data/
