@@ -24,6 +24,7 @@ def save_metadata(report: DownloadedReport, target_dir: Path) -> Path:
     payload = {
         "title": report.title,
         "source_url": report.source_url,
+        "pdf_path": report.pdf_path,
     }
     output_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
     return output_path

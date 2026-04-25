@@ -14,4 +14,4 @@ class ReportCandidate:
 class DownloadedReport:
     title: str
     source_url: str
-    pdf_bytes: bytes
+    pdf_path: str

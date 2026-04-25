@@ -9,7 +9,7 @@ from brh_reports.repository import ensure_directories, save_markdown, save_metad
 
 def run_pipeline() -> int:
     settings = get_settings()
-    ensure_directories(settings.markdown_dir, settings.metadata_dir)
+    ensure_directories(settings.temp_dir, settings.markdown_dir, settings.metadata_dir)
 
     candidates = list(discover_report_candidates())
     if not candidates:
@@ -17,8 +17,8 @@ def run_pipeline() -> int:
         return 0
 
     for candidate in candidates:
-        downloaded = download_report(candidate)
-        markdown = convert_pdf_to_markdown(downloaded.pdf_bytes)
+        downloaded = download_report(candidate, settings.temp_dir)
+        markdown = convert_pdf_to_markdown(settings.temp_dir / downloaded.pdf_path)
         save_markdown(downloaded, markdown, settings.markdown_dir)
         save_metadata(downloaded, settings.metadata_dir)
 
