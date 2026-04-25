@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import math
+import tempfile
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -12,7 +13,7 @@ class Settings:
         "https://www.bundesrechnungshof.de/SiteGlobals/Forms/Suche/"
         "Berichtssuche/Berichtssuche_Formular.html"
     )
-    temp_dir: Path = Path("data/tmp")
+    temp_dir: Path = Path(tempfile.gettempdir()) / "bundesrechnungshof-reports"
     state_dir: Path = Path("state")
     manifest_path: Path = Path("state/processed_reports.json")
     markdown_dir: Path = Path("reports/markdown")
