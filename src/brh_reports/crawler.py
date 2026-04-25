@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import re
+import time
 from collections.abc import Iterable
-from urllib.parse import urlencode, urljoin
+from collections.abc import Callable
+from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 from playwright.sync_api import Error, sync_playwright
@@ -12,6 +14,11 @@ from brh_reports.models import ReportCandidate
 
 RESULT_COUNT_RE = re.compile(r"von\s+([\d.]+)\s+Ergebnissen")
 DATE_RE = re.compile(r"\b\d{2}\.\d{2}\.\d{4}\b")
+CURRENT_PAGE_RE = re.compile(r"Sie sind hier: Seite\s*(\d+)")
+FORWARD_LINK_RE = re.compile(
+    r'href="([^"]*gtp=20916_list%253D2[^"]*)"\s+title="Seite\s+2"\s+class="forward button"'
+)
+GTP_PAGE_RE = re.compile(r"gtp=20916_list%253D(\d+)")
 
 
 def _normalize_whitespace(text: str) -> str:
@@ -35,6 +42,39 @@ def _extract_title(title_node: BeautifulSoup) -> str:
     for extra in title_soup.select("span.aural, span.category"):
         extra.decompose()
     return _normalize_whitespace(title_soup.get_text(" ", strip=True))
+
+
+def _extract_current_page(html: str, current_url: str) -> int:
+    match = CURRENT_PAGE_RE.search(html)
+    if match is not None:
+        return int(match.group(1))
+
+    match = GTP_PAGE_RE.search(current_url)
+    if match is not None:
+        return int(match.group(1))
+
+    return 1
+
+
+def _extract_page_url_builder(first_page_html: str, settings: Settings) -> Callable[[int], str]:
+    match = FORWARD_LINK_RE.search(first_page_html)
+    if match is None:
+        return settings.page_url
+
+    second_page_url = urljoin(settings.base_url, match.group(1))
+    page_match = GTP_PAGE_RE.search(second_page_url)
+    if page_match is None:
+        return settings.page_url
+
+    prefix = second_page_url[: page_match.start(1)]
+    suffix = second_page_url[page_match.end(1) :]
+
+    def build_page_url(page_number: int) -> str:
+        if page_number <= 1:
+            return settings.page_url(1)
+        return f"{prefix}{page_number}{suffix}"
+
+    return build_page_url
 
 
 def _parse_search_page(html: str, current_url: str, base_url: str) -> tuple[list[ReportCandidate], str | None, int | None]:
@@ -72,15 +112,15 @@ def _parse_search_page(html: str, current_url: str, base_url: str) -> tuple[list
             )
         )
 
-    next_link = soup.select_one("nav.navIndex a.forward.button[href]")
-    next_url = None if next_link is None else urljoin(base_url, next_link["href"])
+    current_page = _extract_current_page(html, current_url)
+    next_url = None if current_page < 1 else str(current_page + 1)
     total_results = _extract_total_results(soup)
     return candidates, next_url, total_results
 
 
 def _fetch_search_page(playwright, url: str, settings: Settings, retries: int = 3) -> str:
     last_error: Exception | None = None
-    for _ in range(retries):
+    for attempt in range(retries):
         request_context = playwright.request.new_context(
             base_url=settings.base_url,
             extra_http_headers={"User-Agent": settings.user_agent},
@@ -88,10 +128,14 @@ def _fetch_search_page(playwright, url: str, settings: Settings, retries: int = 
         try:
             response = request_context.get(url)
             if not response.ok:
+                if response.status == 429 or response.status >= 500:
+                    time.sleep(settings.request_delay_seconds * (attempt + 2))
+                    continue
                 raise RuntimeError(f"Failed to fetch search page: {url} ({response.status})")
             return response.text()
         except Error as exc:
             last_error = exc
+            time.sleep(settings.request_delay_seconds * (attempt + 2))
         finally:
             request_context.dispose()
 
@@ -101,20 +145,33 @@ def _fetch_search_page(playwright, url: str, settings: Settings, retries: int = 
 def discover_report_candidates(settings: Settings | None = None) -> Iterable[ReportCandidate]:
     """Discover all report candidates from the Bundesrechnungshof search page."""
     settings = settings or get_settings()
-    start_url = f"{settings.search_url}?{urlencode({'resultsPerPage': settings.results_per_page})}"
     discovered: list[ReportCandidate] = []
     seen_pdf_urls: set[str] = set()
-    visited_pages: set[str] = set()
-    next_url: str | None = start_url
 
     with sync_playwright() as playwright:
-        while next_url and next_url not in visited_pages:
-            visited_pages.add(next_url)
-            html = _fetch_search_page(playwright, next_url, settings)
+        first_url = settings.page_url(1)
+        first_html = _fetch_search_page(playwright, first_url, settings)
+        page_url_builder = _extract_page_url_builder(first_html, settings)
+        first_candidates, _, total_results = _parse_search_page(
+            first_html,
+            current_url=first_url,
+            base_url=settings.base_url,
+        )
+        for candidate in first_candidates:
+            if candidate.pdf_url is None or candidate.pdf_url in seen_pdf_urls:
+                continue
+            seen_pdf_urls.add(candidate.pdf_url)
+            discovered.append(candidate)
 
-            page_candidates, following_url, total_results = _parse_search_page(
+        if total_results is None:
+            return discovered
+
+        for page_number in range(2, settings.total_pages(total_results) + 1):
+            page_url = page_url_builder(page_number)
+            html = _fetch_search_page(playwright, page_url, settings)
+            page_candidates, _, _ = _parse_search_page(
                 html,
-                current_url=next_url,
+                current_url=page_url,
                 base_url=settings.base_url,
             )
             for candidate in page_candidates:
@@ -122,9 +179,6 @@ def discover_report_candidates(settings: Settings | None = None) -> Iterable[Rep
                     continue
                 seen_pdf_urls.add(candidate.pdf_url)
                 discovered.append(candidate)
-
-            next_url = following_url
-            if total_results is not None and len(discovered) >= total_results:
-                break
+            time.sleep(settings.request_delay_seconds)
 
     return discovered
