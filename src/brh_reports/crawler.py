@@ -104,7 +104,7 @@ def _parse_search_page(html: str, current_url: str, base_url: str) -> tuple[list
 
     for teaser in soup.select("section.searchresult div.teaser.type-1.Report"):
         title_node = teaser.select_one("h3.withHeader")
-        pdf_link = teaser.select_one("a.c-button[href]")
+        pdf_link = teaser.select_one('a.c-button[href*=".pdf"]')
         if title_node is None or pdf_link is None:
             continue
 
