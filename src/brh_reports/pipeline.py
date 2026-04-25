@@ -3,7 +3,7 @@ from __future__ import annotations
 from brh_reports.config import get_settings
 from brh_reports.crawler import discover_report_candidates
 from brh_reports.downloader import download_report
-from brh_reports.repository import ensure_directories, save_markdown, save_metadata
+from brh_reports.repository import ensure_directories
 
 
 def discover_pipeline() -> list:
