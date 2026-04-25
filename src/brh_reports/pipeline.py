@@ -3,6 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
+from tqdm import tqdm
 
 from brh_reports.config import get_settings
 from brh_reports.converter import convert_pdf_to_markdown
@@ -52,20 +53,21 @@ def run_pipeline() -> int:
     with sync_playwright() as playwright:
         request_context = playwright.request.new_context(extra_http_headers={"User-Agent": settings.user_agent})
         try:
-            for index, candidate in enumerate(new_candidates, start=1):
-                downloaded = download_report(candidate, settings.temp_dir, request_context=request_context)
-                pdf_path = settings.temp_dir / downloaded.pdf_path
-                try:
-                    markdown = convert_pdf_to_markdown(pdf_path)
-                    markdown_path = save_markdown(candidate, markdown, settings.markdown_dir)
-                    processed_reports[build_report_key(candidate)] = build_processed_report_entry(
-                        candidate,
-                        markdown_path,
-                    )
-                    save_processed_reports(settings.manifest_path, processed_reports)
-                    print(f"[{index}/{len(new_candidates)}] Saved {markdown_path.as_posix()}")
-                finally:
-                    _cleanup_file(pdf_path)
+            with tqdm(new_candidates, desc="Processing new reports", unit="report") as progress:
+                for candidate in progress:
+                    downloaded = download_report(candidate, settings.temp_dir, request_context=request_context)
+                    pdf_path = settings.temp_dir / downloaded.pdf_path
+                    try:
+                        markdown = convert_pdf_to_markdown(pdf_path)
+                        markdown_path = save_markdown(candidate, markdown, settings.markdown_dir)
+                        processed_reports[build_report_key(candidate)] = build_processed_report_entry(
+                            candidate,
+                            markdown_path,
+                        )
+                        save_processed_reports(settings.manifest_path, processed_reports)
+                        progress.set_postfix(saved=markdown_path.name)
+                    finally:
+                        _cleanup_file(pdf_path)
         finally:
             request_context.dispose()
 

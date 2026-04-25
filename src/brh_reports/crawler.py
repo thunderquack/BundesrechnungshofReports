@@ -9,6 +9,7 @@ from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
 from bs4 import BeautifulSoup
 from playwright.sync_api import Error, sync_playwright
+from tqdm import tqdm
 
 from brh_reports.config import Settings, get_settings
 from brh_reports.models import ReportCandidate
@@ -187,19 +188,28 @@ def discover_report_candidates(settings: Settings | None = None) -> Iterable[Rep
         if total_results is None:
             return discovered
 
-        for page_number in range(2, settings.total_pages(total_results) + 1):
-            page_url = page_url_builder(page_number)
-            html = _fetch_search_page(playwright, page_url, settings)
-            page_candidates, _, _ = _parse_search_page(
-                html,
-                current_url=page_url,
-                base_url=settings.base_url,
-            )
-            for candidate in page_candidates:
-                if candidate.pdf_url is None or candidate.pdf_url in seen_pdf_urls:
-                    continue
-                seen_pdf_urls.add(candidate.pdf_url)
-                discovered.append(candidate)
-            time.sleep(settings.request_delay_seconds)
+        total_pages = settings.total_pages(total_results)
+        with tqdm(
+            total=total_pages,
+            initial=1,
+            desc="Discovering reports",
+            unit="page",
+        ) as progress:
+            for page_number in range(2, total_pages + 1):
+                page_url = page_url_builder(page_number)
+                html = _fetch_search_page(playwright, page_url, settings)
+                page_candidates, _, _ = _parse_search_page(
+                    html,
+                    current_url=page_url,
+                    base_url=settings.base_url,
+                )
+                for candidate in page_candidates:
+                    if candidate.pdf_url is None or candidate.pdf_url in seen_pdf_urls:
+                        continue
+                    seen_pdf_urls.add(candidate.pdf_url)
+                    discovered.append(candidate)
+                progress.update(1)
+                progress.set_postfix(reports=len(discovered))
+                time.sleep(settings.request_delay_seconds)
 
     return discovered
