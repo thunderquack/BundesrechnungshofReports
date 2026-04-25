@@ -25,8 +25,5 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -e .[dev]
 
-      - name: Install Playwright browsers
-        run: python -m playwright install --with-deps chromium
-
       - name: Run sync pipeline
-        run: python -m brh_reports run
+        run: python -m brh_reports discover

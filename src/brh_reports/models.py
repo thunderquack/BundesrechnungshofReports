@@ -8,6 +8,8 @@ class ReportCandidate:
     title: str
     detail_url: str
     pdf_url: str | None = None
+    summary: str | None = None
+    published_on: str | None = None
 
 
 @dataclass(slots=True)
