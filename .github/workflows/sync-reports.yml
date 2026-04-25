@@ -2,14 +2,13 @@ name: Sync Bundesrechnungshof Reports
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 5 * * 1"
 
 permissions:
   contents: write
 
 jobs:
   sync:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     env:
       PLAYWRIGHT_BROWSERS_PATH: "0"
