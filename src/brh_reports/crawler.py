@@ -5,7 +5,7 @@ from collections.abc import Iterable
 from urllib.parse import urlencode, urljoin
 
 from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import Error, sync_playwright
 
 from brh_reports.config import Settings, get_settings
 from brh_reports.models import ReportCandidate
@@ -78,6 +78,26 @@ def _parse_search_page(html: str, current_url: str, base_url: str) -> tuple[list
     return candidates, next_url, total_results
 
 
+def _fetch_search_page(playwright, url: str, settings: Settings, retries: int = 3) -> str:
+    last_error: Exception | None = None
+    for _ in range(retries):
+        request_context = playwright.request.new_context(
+            base_url=settings.base_url,
+            extra_http_headers={"User-Agent": settings.user_agent},
+        )
+        try:
+            response = request_context.get(url)
+            if not response.ok:
+                raise RuntimeError(f"Failed to fetch search page: {url} ({response.status})")
+            return response.text()
+        except Error as exc:
+            last_error = exc
+        finally:
+            request_context.dispose()
+
+    raise RuntimeError(f"Failed to fetch search page after {retries} attempts: {url}") from last_error
+
+
 def discover_report_candidates(settings: Settings | None = None) -> Iterable[ReportCandidate]:
     """Discover all report candidates from the Bundesrechnungshof search page."""
     settings = settings or get_settings()
@@ -88,32 +108,23 @@ def discover_report_candidates(settings: Settings | None = None) -> Iterable[Rep
     next_url: str | None = start_url
 
     with sync_playwright() as playwright:
-        request_context = playwright.request.new_context(
-            base_url=settings.base_url,
-            extra_http_headers={"User-Agent": settings.user_agent},
-        )
-        try:
-            while next_url and next_url not in visited_pages:
-                visited_pages.add(next_url)
-                response = request_context.get(next_url)
-                if not response.ok:
-                    raise RuntimeError(f"Failed to fetch search page: {next_url} ({response.status})")
+        while next_url and next_url not in visited_pages:
+            visited_pages.add(next_url)
+            html = _fetch_search_page(playwright, next_url, settings)
 
-                page_candidates, following_url, total_results = _parse_search_page(
-                    response.text(),
-                    current_url=next_url,
-                    base_url=settings.base_url,
-                )
-                for candidate in page_candidates:
-                    if candidate.pdf_url is None or candidate.pdf_url in seen_pdf_urls:
-                        continue
-                    seen_pdf_urls.add(candidate.pdf_url)
-                    discovered.append(candidate)
+            page_candidates, following_url, total_results = _parse_search_page(
+                html,
+                current_url=next_url,
+                base_url=settings.base_url,
+            )
+            for candidate in page_candidates:
+                if candidate.pdf_url is None or candidate.pdf_url in seen_pdf_urls:
+                    continue
+                seen_pdf_urls.add(candidate.pdf_url)
+                discovered.append(candidate)
 
-                next_url = following_url
-                if total_results is not None and len(discovered) >= total_results:
-                    break
-        finally:
-            request_context.dispose()
+            next_url = following_url
+            if total_results is not None and len(discovered) >= total_results:
+                break
 
     return discovered

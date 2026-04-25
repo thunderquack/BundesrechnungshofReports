@@ -3,7 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 from urllib.parse import urlparse
 
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import APIRequestContext, sync_playwright
 
 from brh_reports.models import DownloadedReport, ReportCandidate
 
@@ -17,7 +17,11 @@ def _build_file_name(candidate: ReportCandidate) -> str:
     return f"{fallback or 'report'}.pdf"
 
 
-def download_report(candidate: ReportCandidate, target_dir: Path) -> DownloadedReport:
+def download_report(
+    candidate: ReportCandidate,
+    target_dir: Path,
+    request_context: APIRequestContext | None = None,
+) -> DownloadedReport:
     """Download a single report PDF.
 
     Download the PDF into a temporary directory using Playwright's request client.
@@ -29,17 +33,25 @@ def download_report(candidate: ReportCandidate, target_dir: Path) -> DownloadedR
     file_name = _build_file_name(candidate)
     output_path = target_dir / file_name
 
-    with sync_playwright() as playwright:
-        request_context = playwright.request.new_context(extra_http_headers={"User-Agent": "Mozilla/5.0"})
-        try:
-            response = request_context.get(candidate.pdf_url)
-            if not response.ok:
-                raise RuntimeError(
-                    f"Failed to download PDF: {candidate.pdf_url} ({response.status})"
-                )
-            output_path.write_bytes(response.body())
-        finally:
-            request_context.dispose()
+    if request_context is not None:
+        response = request_context.get(candidate.pdf_url)
+        if not response.ok:
+            raise RuntimeError(
+                f"Failed to download PDF: {candidate.pdf_url} ({response.status})"
+            )
+        output_path.write_bytes(response.body())
+    else:
+        with sync_playwright() as playwright:
+            request_context = playwright.request.new_context(extra_http_headers={"User-Agent": "Mozilla/5.0"})
+            try:
+                response = request_context.get(candidate.pdf_url)
+                if not response.ok:
+                    raise RuntimeError(
+                        f"Failed to download PDF: {candidate.pdf_url} ({response.status})"
+                    )
+                output_path.write_bytes(response.body())
+            finally:
+                request_context.dispose()
 
     return DownloadedReport(
         title=candidate.title,
