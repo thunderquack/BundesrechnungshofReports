@@ -140,6 +140,31 @@ def _parse_search_page(html: str, current_url: str, base_url: str) -> tuple[list
     return candidates, next_url, total_results
 
 
+def _format_response_failure(page: Page, response, requested_url: str) -> str:
+    status = getattr(response, "status", "unknown")
+    status_text = getattr(response, "status_text", "")
+    final_url = getattr(response, "url", page.url)
+    try:
+        headers = response.headers
+    except Exception:
+        headers = {}
+    interesting_headers = {
+        key: value
+        for key, value in headers.items()
+        if key.lower() in {"server", "content-type", "location", "x-cache", "cf-ray", "retry-after"}
+    }
+    try:
+        body = response.text()
+    except Exception:
+        body = page.content()
+    body_preview = _normalize_whitespace(body)[:500]
+    return (
+        f"Failed to fetch search page: {requested_url} "
+        f"(status={status} {status_text!s}, final_url={final_url}, "
+        f"headers={interesting_headers}, body_preview={body_preview!r})"
+    )
+
+
 def _fetch_search_page(page: Page, url: str, settings: Settings, retries: int = 3) -> str:
     last_error: Exception | None = None
     for attempt in range(retries):
@@ -151,7 +176,7 @@ def _fetch_search_page(page: Page, url: str, settings: Settings, retries: int = 
                 if response.status == 429 or response.status >= 500:
                     time.sleep(settings.request_delay_seconds * (attempt + 2))
                     continue
-                raise RuntimeError(f"Failed to fetch search page: {url} ({response.status})")
+                raise RuntimeError(_format_response_failure(page, response, url))
             page.wait_for_load_state("networkidle")
             return page.content()
         except Error as exc:
