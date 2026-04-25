@@ -2,7 +2,7 @@ Metadata-Version: 2.4
 Name: bundesrechnungshof-reports
 Version: 0.1.0
 Summary: Automation scaffolding for downloading Bundesrechnungshof PDF reports and converting them to Markdown.
-Requires-Python: >=3.13
+Requires-Python: >=3.14
 License-File: LICENSE
 Requires-Dist: playwright<2.0.0,>=1.53.0
 Provides-Extra: dev

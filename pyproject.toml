@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "bundesrechnungshof-reports"
 version = "0.1.0"
 description = "Automation scaffolding for downloading Bundesrechnungshof PDF reports and converting them to Markdown."
-requires-python = ">=3.13"
+requires-python = ">=3.14"
 dependencies = [
     "playwright>=1.53.0,<2.0.0",
 ]
@@ -28,7 +28,7 @@ where = ["src"]
 
 [tool.ruff]
 line-length = 100
-target-version = "py313"
+target-version = "py314"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
