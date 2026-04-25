@@ -96,7 +96,8 @@ def discover_report_candidates(settings: Settings | None = None) -> Iterable[Rep
             while next_url and next_url not in visited_pages:
                 visited_pages.add(next_url)
                 response = request_context.get(next_url)
-                response.raise_for_status()
+                if not response.ok:
+                    raise RuntimeError(f"Failed to fetch search page: {next_url} ({response.status})")
 
                 page_candidates, following_url, total_results = _parse_search_page(
                     response.text(),

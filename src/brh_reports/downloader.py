@@ -33,7 +33,10 @@ def download_report(candidate: ReportCandidate, target_dir: Path) -> DownloadedR
         request_context = playwright.request.new_context(extra_http_headers={"User-Agent": "Mozilla/5.0"})
         try:
             response = request_context.get(candidate.pdf_url)
-            response.raise_for_status()
+            if not response.ok:
+                raise RuntimeError(
+                    f"Failed to download PDF: {candidate.pdf_url} ({response.status})"
+                )
             output_path.write_bytes(response.body())
         finally:
             request_context.dispose()
