@@ -1,6 +1,24 @@
 {
   "reports": [
     {
+      "report_key": "bb6e2c2709eb89fd813ce4db4f454410b540fb5c5a48c901640409b210a79dcd",
+      "identity_value": "Information über die Entwicklung des Einzelplans 06 (Bundesministerium des Innern) für die Beratungen zum Bundeshaushalt 2025\n31.07.2025",
+      "title": "Information über die Entwicklung des Einzelplans 06 (Bundesministerium des Innern) für die Beratungen zum Bundeshaushalt 2025",
+      "published_on": "31.07.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2025/06-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-07-31-information-ber-die-entwicklung-des-einzelplans-06-bundesministerium-des-innern-f-r-die-beratungen-zum-bundeshaushalt-2025.md"
+    },
+    {
+      "report_key": "56f725570ec5cedbe43aaa997788462de3f8625b674908a1006dcdbf1c508436",
+      "identity_value": "Information über die Entwicklung des Einzelplans 11 (Bundesministerium für Arbeit und Soziales) für die Beratungen zum Bundeshaushalt 2025\n31.07.2025",
+      "title": "Information über die Entwicklung des Einzelplans 11 (Bundesministerium für Arbeit und Soziales) für die Beratungen zum Bundeshaushalt 2025",
+      "published_on": "31.07.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2025/11-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-07-31-information-u-ber-die-entwicklung-des-einzelplans-11-bundesministerium-fu-r-arbeit-und-soziales-fu-r-die-beratungen-zum-bundeshaushalt-2025.md"
+    },
+    {
       "report_key": "15f893b6793fa756173448928768dd761ff6b4d1c5c82b1c46df15e7c99f0ab4",
       "identity_value": "Information über die Entwicklung des Einzelplans 06 (Bundesministerium des Innern) für die Beratungen zum Bundeshaushalt 2026\n30.09.2025",
       "title": "Information über die Entwicklung des Einzelplans 06 (Bundesministerium des Innern) für die Beratungen zum Bundeshaushalt 2026",
@@ -17,6 +35,15 @@
       "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/25-volltext.pdf?__blob=publicationFile&v=2",
       "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
       "markdown_path": "reports/markdown/2025/2025-09-29-information-u-ber-die-entwicklung-des-einzelplans-25-bundesministerium-f-r-wohnen-stadtentwicklung-und-bauwesen-fu-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "9d2af5664f4cc028d98a7a8c7b942c2735ad0271741a413e37a62eafc8547b92",
+      "identity_value": "Information über die Entwicklung des Einzelplans 01 (Bundespräsident und Bundespräsidialamt) für die Beratungen zum Bundeshaushalt 2026\n29.08.2025",
+      "title": "Information über die Entwicklung des Einzelplans 01 (Bundespräsident und Bundespräsidialamt) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "29.08.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/01-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-08-29-information-ber-die-entwicklung-des-einzelplans-01-bundespra-sident-und-bundespra-sidialamt-f-r-die-beratungen-zum-bundeshaushalt-2026.md"
     },
     {
       "report_key": "431e4e48edf47db2cb7859533956c9cafa17b7df63871bc91cede7f95ed78dbf",
@@ -37,6 +64,15 @@
       "markdown_path": "reports/markdown/2025/2025-10-28-delegationsreisen-der-bundesratspr-sidentinnen-und-pr-sidenten-ins-ausland.md"
     },
     {
+      "report_key": "fd3b4591be7b4d3148b551114787662855f40274d6a1777f47051f2603f37b95",
+      "identity_value": "Jahresrechnung und ordnungsgemäße Belegung der Einnahmen und Ausgaben der Bundesagentur für Arbeit für das Haushaltsjahr 2024\n28.08.2025",
+      "title": "Jahresrechnung und ordnungsgemäße Belegung der Einnahmen und Ausgaben der Bundesagentur für Arbeit für das Haushaltsjahr 2024",
+      "published_on": "28.08.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/ba-haushaltsjahr-2024-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an den Verwaltungsrat der Bundesagentur für Arbeit",
+      "markdown_path": "reports/markdown/2025/2025-08-28-jahresrechnung-und-ordnungsgem-e-belegung-der-einnahmen-und-ausgaben-der-bundesagentur-f-r-arbeit-f-r-das-haushaltsjahr-2024.md"
+    },
+    {
       "report_key": "05ea2c100360aa85ae072222c4a879058512810bab0f1bf91fba61c0d8a4769a",
       "identity_value": "Neuausrichtung der Schienenverkehrsinfrastruktur – Entwurf des dritten Nachtrags zur Leistungs- und Finanzierungsvereinbarung III\n27.11.2025",
       "title": "Neuausrichtung der Schienenverkehrsinfrastruktur – Entwurf des dritten Nachtrags zur Leistungs- und Finanzierungsvereinbarung III",
@@ -44,6 +80,15 @@
       "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/neuausrichtung-schiene-volltext.pdf?__blob=publicationFile&v=2",
       "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages und an den Verkehrsausschuss des Deutschen Bundestages",
       "markdown_path": "reports/markdown/2025/2025-11-27-neuausrichtung-der-schienenverkehrsinfrastruktur-entwurf-des-dritten-nachtrags-zur-leistungs-und-finanzierungsvereinbarung-iii.md"
+    },
+    {
+      "report_key": "27c54ed95e89d806164b01d7d5650653a60a19539785823a0c9f743afbb81364",
+      "identity_value": "Information über die Entwicklung des Einzelplans 03 (Bundesrat) für die Beratungen zum Bundeshaushalt 2026\n27.08.2025",
+      "title": "Information über die Entwicklung des Einzelplans 03 (Bundesrat) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "27.08.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/03-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-08-27-information-ber-die-entwicklung-des-einzelplans-03-bundesrat-f-r-die-beratungen-zum-bundeshaushalt-2026.md"
     },
     {
       "report_key": "4e9df481519df7d9c72642ba24ebe7d63cc3dceaba8234b093214924f47cb82f",
@@ -83,6 +128,33 @@
       "markdown_path": "reports/markdown/2026/2026-02-26-haushalts-und-wirtschaftsf-hrung-einschlie-lich-der-jahresrechnung-2023-der-landwirtschaftlichen-rentenbank.md"
     },
     {
+      "report_key": "962d68a49a23a8a3b09f2353c6cb07fa8b6d9230244a865409a93115e320c2ae",
+      "identity_value": "Grundinstandsetzung der Schleuse Kachlet – Einsparpotenzial nutzen\n25.08.2025",
+      "title": "Grundinstandsetzung der Schleuse Kachlet – Einsparpotenzial nutzen",
+      "published_on": "25.08.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/schleuse-kachlet-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Rechnungsprüfungsausschuss des Haushaltsausschusses des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-08-25-grundinstandsetzung-der-schleuse-kachlet-einsparpotenzial-nutzen.md"
+    },
+    {
+      "report_key": "92e0370c11de742b52f30bfb8b3984822932a31e9c9e303739fc70883cbac44c",
+      "identity_value": "Information über die Entwicklung des Einzelplans 24 (Bundesministerium für Digitales und Staatsmodernisierung) für die Beratungen zum Bundeshaushalt 2025\n25.07.2025",
+      "title": "Information über die Entwicklung des Einzelplans 24 (Bundesministerium für Digitales und Staatsmodernisierung) für die Beratungen zum Bundeshaushalt 2025",
+      "published_on": "25.07.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2025/24-volltext.pdf?__blob=publicationFile&v=4",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-07-25-information-ber-die-entwicklung-des-einzelplans-24-bundesministerium-f-r-digitales-und-staatsmodernisierung-f-r-die-beratungen-zum-bundeshaushalt-2025.md"
+    },
+    {
+      "report_key": "a01aef5cbf73447561899eee2111eb88abdb95c5b55fb9cd6d2076ba9942ccb1",
+      "identity_value": "Information über die Entwicklung des Einzelplans 04 (Bundeskanzler und Bundeskanzleramt) für die Beratungen zum Bundeshaushalt 2025\n25.07.2025",
+      "title": "Information über die Entwicklung des Einzelplans 04 (Bundeskanzler und Bundeskanzleramt) für die Beratungen zum Bundeshaushalt 2025",
+      "published_on": "25.07.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2025/04-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-07-25-information-ber-die-entwicklung-des-einzelplans-04-bundeskanzler-und-bundeskanzleramt-f-r-die-beratungen-zum-bundeshaushalt-2025.md"
+    },
+    {
       "report_key": "48836b6ea64a2547ec8ccfb00a66c2ffe94f9c7ebcb3c7e92fc5301337b207a8",
       "identity_value": "Information über die Entwicklung des Einzelplans 30 (Bundesministerium für Forschung, Technologie und Raumfahrt) für die Beratungen zum Bundeshaushalt 2026\n24.09.2025",
       "title": "Information über die Entwicklung des Einzelplans 30 (Bundesministerium für Forschung, Technologie und Raumfahrt) für die Beratungen zum Bundeshaushalt 2026",
@@ -99,6 +171,24 @@
       "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/pauschallandwirte-volltext.pdf?__blob=publicationFile&v=2",
       "summary": "Abschließende Mitteilung an das Bundesministerium der Finanzen",
       "markdown_path": "reports/markdown/2025/2025-09-24-berechnung-des-durchschnittssatzes-der-pauschallandwirte-24-umsatzsteuergesetz.md"
+    },
+    {
+      "report_key": "91a46eb2b42e6b25b4467c5b2d39d68ee43186a3e1d19d0d119cda40b3cdffa4",
+      "identity_value": "Information über die Entwicklung des Einzelplans 02 (Deutscher Bundestag) für die Beratungen zum Bundeshaushalt 2025\n24.07.2025",
+      "title": "Information über die Entwicklung des Einzelplans 02 (Deutscher Bundestag) für die Beratungen zum Bundeshaushalt 2025",
+      "published_on": "24.07.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2025/02-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-07-24-information-ber-die-entwicklung-des-einzelplans-02-deutscher-bundestag-f-r-die-beratungen-zum-bundeshaushalt-2025.md"
+    },
+    {
+      "report_key": "61a82c74ac6992e20606bc5b7f052cea1418c2509925aee1fd01ae24771c1f73",
+      "identity_value": "Information über die Entwicklung des Einzelplans 10 (Bundesministerium für Landwirtschaft, Ernährung und Heimat) für die Beratungen zum Bundeshaushalt 2025\n24.07.2025",
+      "title": "Information über die Entwicklung des Einzelplans 10 (Bundesministerium für Landwirtschaft, Ernährung und Heimat) für die Beratungen zum Bundeshaushalt 2025",
+      "published_on": "24.07.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2025/10-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-07-24-information-u-ber-die-entwicklung-des-einzelplans-10-bundesministerium-fu-r-landwirtschaft-ern-hrung-und-heimat-fu-r-die-beratungen-zum-bundeshaushalt-2025.md"
     },
     {
       "report_key": "aef10c7f61ffaa2b78db5aa941f7e8593a9d54f374611f4402a5a446a00d536b",
@@ -155,6 +245,60 @@
       "markdown_path": "reports/markdown/2025/2025-09-22-information-u-ber-die-entwicklung-des-einzelplans-14-bundesministerium-der-verteidigung-fu-r-die-beratungen-zum-bundeshaushalt-2026.md"
     },
     {
+      "report_key": "4f0bf9753953da8843b93f2f00225aeba15c675a91918c64573923dd88bc988f",
+      "identity_value": "Information über die Entwicklung des Einzelplans 03 (Bundesrat) für die Beratungen zum Bundeshaushalt 2025\n22.07.2025",
+      "title": "Information über die Entwicklung des Einzelplans 03 (Bundesrat) für die Beratungen zum Bundeshaushalt 2025",
+      "published_on": "22.07.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2025/03-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-07-22-information-ber-die-entwicklung-des-einzelplans-03-bundesrat-f-r-die-beratungen-zum-bundeshaushalt-2025.md"
+    },
+    {
+      "report_key": "7b9af63956986abafc4d35a49360dbd6ec64b149ad45a66f0ed30b2d6d78b064",
+      "identity_value": "Information über die Entwicklung des Einzelplans 21 (Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit) für die Beratungen zum Bundeshaushalt 2025\n22.07.2025",
+      "title": "Information über die Entwicklung des Einzelplans 21 (Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit) für die Beratungen zum Bundeshaushalt 2025",
+      "published_on": "22.07.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2025/21-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-07-22-information-u-ber-die-entwicklung-des-einzelplans-21-der-bundesbeauftragte-fu-r-den-datenschutz-und-die-informationsfreiheit-fu-r-die-beratungen-zum-bundeshaushalt-2025.md"
+    },
+    {
+      "report_key": "1a466deab434576a5c0180319deaf67c1654f57ae253068fcdaedfb193322436",
+      "identity_value": "Finanzielle Entwicklung der gesetzlichen Rentenversicherung – ausgewählte rentenpolitische Vorhaben\n22.07.2025",
+      "title": "Finanzielle Entwicklung der gesetzlichen Rentenversicherung – ausgewählte rentenpolitische Vorhaben",
+      "published_on": "22.07.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/entwicklung-rentenversicherung-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsauschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-07-22-finanzielle-entwicklung-der-gesetzlichen-rentenversicherung-ausgew-hlte-rentenpolitische-vorhaben.md"
+    },
+    {
+      "report_key": "e06a9f04ef8e4418727d629eb2ad56ba7ff08a7024099125f82951742da02c80",
+      "identity_value": "Berücksichtigung von Nachhaltigkeitsaspekten bei Gesetz- und Verordnungsentwürfen\n22.07.2025",
+      "title": "Berücksichtigung von Nachhaltigkeitsaspekten bei Gesetz- und Verordnungsentwürfen",
+      "published_on": "22.07.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/nachhaltigkeitsaspekte-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an das Bundeskanzleramt",
+      "markdown_path": "reports/markdown/2025/2025-07-22-beru-cksichtigung-von-nachhaltigkeitsaspekten-bei-gesetz-und-verordnungsentwu-rfen.md"
+    },
+    {
+      "report_key": "32e382a397c7d96a8ee5336815cf4c6d5d08ea2b22acfab7af6f5301587ecab4",
+      "identity_value": "Entwurf eines Gesetzes zur Errichtung eines Sondervermögens Infrastruktur und Klimaneutralität (SVIKG)\n21.08.2025",
+      "title": "Entwurf eines Gesetzes zur Errichtung eines Sondervermögens Infrastruktur und Klimaneutralität (SVIKG)",
+      "published_on": "21.08.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/sondervermoegen-svikg-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-08-21-entwurf-eines-gesetzes-zur-errichtung-eines-sonderverm-gens-infrastruktur-und-klimaneutralit-t-svikg.md"
+    },
+    {
+      "report_key": "c2bc4c57d0a1f4cec121f879be36c1253c8213a63e240f908ad747e017adc3f0",
+      "identity_value": "Information über die Entwicklung des Einzelplans 22 (Unabhängiger Kontrollrat) für die Beratungen zum Bundeshaushalt 2025\n21.07.2025",
+      "title": "Information über die Entwicklung des Einzelplans 22 (Unabhängiger Kontrollrat) für die Beratungen zum Bundeshaushalt 2025",
+      "published_on": "21.07.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2025/22-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-07-21-information-u-ber-die-entwicklung-des-einzelplans-22-unabh-ngiger-kontrollrat-fu-r-die-beratungen-zum-bundeshaushalt-2025.md"
+    },
+    {
       "report_key": "8cfb6865258aa1b51acf7f9805dbb0857672dd5fb8caaec86001401526812e1f",
       "identity_value": "Prüfung des Stiftungsberichts des Bundes\n20.11.2025",
       "title": "Prüfung des Stiftungsberichts des Bundes",
@@ -200,6 +344,15 @@
       "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/23-volltext.pdf?__blob=publicationFile&v=2",
       "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
       "markdown_path": "reports/markdown/2025/2025-09-19-information-ber-die-entwicklung-des-einzelplans-23-bundesministerium-fu-r-wirtschaftliche-zusammenarbeit-und-entwicklung-f-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "57e256a734a786ba1cb77616b4831b58be6b6a977fc571eb849be6be97922ed0",
+      "identity_value": "Information über die Entwicklung des Einzelplans 60 (Allgemeine Finanzverwaltung) für die Beratungen zum Bundeshaushalt 2025\n19.08.2025",
+      "title": "Information über die Entwicklung des Einzelplans 60 (Allgemeine Finanzverwaltung) für die Beratungen zum Bundeshaushalt 2025",
+      "published_on": "19.08.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2025/60-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-08-19-information-u-ber-die-entwicklung-des-einzelplans-60-allgemeine-finanzverwaltung-fu-r-die-beratungen-zum-bundeshaushalt-2025.md"
     },
     {
       "report_key": "53fae0a3725c7763e16fae4c71a06ab86a16acdc11f8be292bf301a11d7e545d",
@@ -248,6 +401,15 @@
       "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/gesamtplan-volltext.pdf?__blob=publicationFile&v=2",
       "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
       "markdown_path": "reports/markdown/2025/2025-09-17-analyse-zur-lage-der-bundesfinanzen-fu-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "040aa720bf09bf38e2553229b96064b0178910e3c1fec059697e32e82590e51a",
+      "identity_value": "Beratungen zum zweiten Entwurf des Wirtschaftsplans 2025 des Klima- und Transformationsfonds (Kapitel 6092)\n17.07.2025",
+      "title": "Beratungen zum zweiten Entwurf des Wirtschaftsplans 2025 des Klima- und Transformationsfonds (Kapitel 6092)",
+      "published_on": "17.07.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/wirtschaftsplan-ktf-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-07-17-beratungen-zum-zweiten-entwurf-des-wirtschaftsplans-2025-des-klima-und-transformationsfonds-kapitel-6092.md"
     },
     {
       "report_key": "27adc1a2abb251bac26b834a4837aab7a6e0002737c36aec912e49352f192a99",
@@ -303,6 +465,24 @@
       "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/konzernabschluss-db-2024-volltext.pdf?__blob=publicationFile&v=2",
       "summary": "Beratungsbericht an das Bundesministerium für Verkehr, das Bundesministerium der Finanzen und das Bundesministerium für Wirtschaft und Energie",
       "markdown_path": "reports/markdown/2025/2025-09-15-beta-tigung-des-bundes-bei-der-db-ag-im-hinblick-auf-die-wirtschaftliche-entwicklung-im-konzernabschluss-2024.md"
+    },
+    {
+      "report_key": "404fda3b61bcd0bc573dcd940a75649f555a4821bf9469836ef9fbe599fa7a49",
+      "identity_value": "Entwicklung der Finanzlage in der gesetzlichen Krankenversicherung\n15.08.2025",
+      "title": "Entwicklung der Finanzlage in der gesetzlichen Krankenversicherung",
+      "published_on": "15.08.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/finanzlage-gkv-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-08-15-entwicklung-der-finanzlage-in-der-gesetzlichen-krankenversicherung.md"
+    },
+    {
+      "report_key": "3c6006a559b0dded34b793f1620e38ef89209030a5e964eff513f329be21db9c",
+      "identity_value": "Information über die Entwicklung des Einzelplans 32 (Bundesschuld) für die Beratungen zum Bundeshaushalt 2025\n14.08.2025",
+      "title": "Information über die Entwicklung des Einzelplans 32 (Bundesschuld) für die Beratungen zum Bundeshaushalt 2025",
+      "published_on": "14.08.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2025/32-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-08-14-information-u-ber-die-entwicklung-des-einzelplans-32-bundesschuld-fu-r-die-beratungen-zum-bundeshaushalt-2025.md"
     },
     {
       "report_key": "eb6a75da199cf18951703591dcf2b4d65e01d794745ffef0f18cc93e483d568e",
@@ -388,6 +568,15 @@
       "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/04-volltext.pdf?__blob=publicationFile&v=2",
       "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
       "markdown_path": "reports/markdown/2025/2025-09-12-information-ber-die-entwicklung-des-einzelplans-04-bundeskanzler-und-bundeskanzleramt-f-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "9830ae0a495054f19a3e574b23e2f54d354d43bd71c665b2841e0dc6b4c496fb",
+      "identity_value": "Information über die Entwicklung des Einzelplans 30 (Bundesministerium für Forschung, Technologie und Raumfahrt) für die Beratungen zum Bundeshaushalt 2025\n12.08.2025",
+      "title": "Information über die Entwicklung des Einzelplans 30 (Bundesministerium für Forschung, Technologie und Raumfahrt) für die Beratungen zum Bundeshaushalt 2025",
+      "published_on": "12.08.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2025/30-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-08-12-information-u-ber-die-entwicklung-des-einzelplans-30-bundesministerium-f-r-forschung-technologie-und-raumfahrt-fu-r-die-beratungen-zum-bundeshaushalt-2025.md"
     },
     {
       "report_key": "01ac0a1bd4627c375d5cd0101d066c7f79606b189c691a9e84f3bf3f20479984",
@@ -770,6 +959,15 @@
       "markdown_path": "reports/markdown/2025/2025-09-08-entwurf-der-bundesregierung-eines-gesetzes-zur-finanzierung-von-infrastrukturinvestitionen-von-l-ndern-und-kommunen-lukifg.md"
     },
     {
+      "report_key": "903cb7fe35abbb7858df9017c824dd3a5e4863f4d5ddf789e13dd679ed7431c2",
+      "identity_value": "Finanzhilfen nach dem Gesetz zur Förderung von Investitionen finanzschwacher Kommunen (KInvFG) – Analyse der Verfahrensdauern bei der Umsetzung der Maßnahmen im Schulsanierungsprogramm\n08.08.2025",
+      "title": "Finanzhilfen nach dem Gesetz zur Förderung von Investitionen finanzschwacher Kommunen (KInvFG) – Analyse der Verfahrensdauern bei der Umsetzung der Maßnahmen im Schulsanierungsprogramm",
+      "published_on": "08.08.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/schulsanierung-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Beratungsbericht an das Bundesministerium der Finanzen",
+      "markdown_path": "reports/markdown/2025/2025-08-08-finanzhilfen-nach-dem-gesetz-zur-f-rderung-von-investitionen-finanzschwacher-kommunen-kinvfg-analyse-der-verfahrensdauern-bei-der-umsetzung-der-ma-nahmen-im-schulsanierungsprogramm.md"
+    },
+    {
       "report_key": "b949f915b369e0dab6e459d7739d1925f34c014c1c344a0ea26e6118089b165e",
       "identity_value": "Digitalisierung des Asylverfahrens\n08.01.2026",
       "title": "Digitalisierung des Asylverfahrens",
@@ -778,6 +976,15 @@
       "detail_url": "https://www.bundesrechnungshof.de/SiteGlobals/Forms/Suche/Berichtssuche/Berichtssuche_Formular.html?resultsPerPage=50",
       "summary": "Abschließende Mitteilung an das Bundesamt für Migration und Flüchtlinge",
       "markdown_path": "reports/markdown/2026/2026-01-08-digitalisierung-des-asylverfahrens.md"
+    },
+    {
+      "report_key": "0fa4576e98bab7f67c226edce1ca6b818fe0da39c65ea9a677b444c507bce94b",
+      "identity_value": "Ausgewählte Maßnahmen zur Förderung der Künstlichen Intelligenz – Wettbewerbliches Auswahlverfahren\n07.08.2025",
+      "title": "Ausgewählte Maßnahmen zur Förderung der Künstlichen Intelligenz – Wettbewerbliches Auswahlverfahren",
+      "published_on": "07.08.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/foerderung-ki-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Prüfungsmitteilung an das Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit",
+      "markdown_path": "reports/markdown/2025/2025-08-07-ausgewa-hlte-ma-nahmen-zur-fo-rderung-der-ku-nstlichen-intelligenz-wettbewerbliches-auswahlverfahren.md"
     },
     {
       "report_key": "cbb9707e9021b9118ec7e162893dd9e2b91c6f8f33385b2d6fd1c9beb853dc38",
@@ -872,6 +1079,15 @@
       "markdown_path": "reports/markdown/2025/2025-09-03-information-ber-die-entwicklung-des-einzelplans-02-deutscher-bundestag-f-r-die-beratungen-zum-bundeshaushalt-2026.md"
     },
     {
+      "report_key": "8cf7a78faf1b00773e2407a7f999ddc63ff297b1c929f3451cb8cefca1882ea8",
+      "identity_value": "Information über die Entwicklung des Einzelplans 15 (Bundesministerium für Gesundheit) für die Beratungen zum Bundeshaushalt 2026\n03.09.2025",
+      "title": "Information über die Entwicklung des Einzelplans 15 (Bundesministerium für Gesundheit) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "03.09.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/15-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-09-03-information-u-ber-die-entwicklung-des-einzelplans-15-bundesministerium-fu-r-gesundheit-fu-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
       "report_key": "e9928bdcdbff8116306206f65c5536529e891b3383ddce645cb03a8ce70aff82",
       "identity_value": "Fehlende Mitwirkung in der Arbeitsvermittlung – Handlungsmöglichkeiten der Jobcenter verbessern\n02.10.2025",
       "title": "Fehlende Mitwirkung in der Arbeitsvermittlung – Handlungsmöglichkeiten der Jobcenter verbessern",
@@ -879,6 +1095,24 @@
       "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/buergergeld-volltext.pdf?__blob=publicationFile&v=2",
       "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
       "markdown_path": "reports/markdown/2025/2025-10-02-fehlende-mitwirkung-in-der-arbeitsvermittlung-handlungsm-glichkeiten-der-jobcenter-verbessern.md"
+    },
+    {
+      "report_key": "0e189dbd277936e7336feffd6f27a7eee1e88ae9ee64c760e61c2b9d4978cca0",
+      "identity_value": "Information über die Entwicklung des Einzelplans 19 (Bundesverfassungsgericht) für die Beratungen zum Bundeshaushalt 2026\n02.09.2025",
+      "title": "Information über die Entwicklung des Einzelplans 19 (Bundesverfassungsgericht) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "02.09.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/19-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-09-02-information-u-ber-die-entwicklung-des-einzelplans-19-bundesverfassungsgericht-fu-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "c38de2bcd4c81804e174d906a8367e8a93843bb53393549ddf27a234d6220b0d",
+      "identity_value": "Information über die Entwicklung des Einzelplans 09 (Bundesministerium für Wirtschaft und Energie) für die Beratungen zum Bundeshaushalt 2026\n02.09.2025",
+      "title": "Information über die Entwicklung des Einzelplans 09 (Bundesministerium für Wirtschaft und Energie) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "02.09.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/09-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-09-02-information-u-ber-die-entwicklung-des-einzelplans-09-bundesministerium-fu-r-wirtschaft-und-energie-fu-r-die-beratungen-zum-bundeshaushalt-2026.md"
     },
     {
       "report_key": "78d17c65fb25f189c9a2f8a42b0d3e5b02d2dfb17476bb056a20e0293e05b23c",
