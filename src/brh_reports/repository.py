@@ -92,7 +92,6 @@ def build_processed_report_entry(report: ReportCandidate, markdown_path: Path) -
         "title": report.title,
         "published_on": report.published_on,
         "pdf_url": report.pdf_url,
-        "detail_url": report.detail_url,
         "summary": report.summary,
         "markdown_path": markdown_path.as_posix(),
     }

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import time
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
@@ -32,8 +33,12 @@ def download_pipeline() -> int:
 
 
 def _cleanup_file(path: Path) -> None:
-    if path.exists():
-        path.unlink()
+    for _ in range(5):
+        try:
+            path.unlink(missing_ok=True)
+            return
+        except PermissionError:
+            time.sleep(0.2)
 
 
 def run_pipeline() -> int:

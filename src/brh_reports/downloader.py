@@ -1,20 +1,15 @@
 from __future__ import annotations
 
 from pathlib import Path
-from urllib.parse import urlparse
 
 from playwright.sync_api import APIRequestContext, sync_playwright
 
+from brh_reports.identity import build_report_key
 from brh_reports.models import DownloadedReport, ReportCandidate
 
 
 def _build_file_name(candidate: ReportCandidate) -> str:
-    if candidate.pdf_url:
-        file_name = Path(urlparse(candidate.pdf_url).path).name
-        if file_name:
-            return file_name
-    fallback = "".join(ch if ch.isalnum() else "-" for ch in candidate.title.lower()).strip("-")
-    return f"{fallback or 'report'}.pdf"
+    return f"{build_report_key(candidate)}.pdf"
 
 
 def download_report(
