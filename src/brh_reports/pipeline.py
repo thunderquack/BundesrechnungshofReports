@@ -56,11 +56,19 @@ def run_pipeline() -> int:
         return 0
 
     with sync_playwright() as playwright:
-        request_context = playwright.request.new_context(extra_http_headers={"User-Agent": settings.user_agent})
+        browser = playwright.chromium.launch(headless=settings.headless)
+        browser_context = browser.new_context(
+            user_agent=settings.user_agent,
+            locale="de-DE",
+        )
         try:
             with tqdm(new_candidates, desc="Processing new reports", unit="report") as progress:
                 for candidate in progress:
-                    downloaded = download_report(candidate, settings.temp_dir, request_context=request_context)
+                    downloaded = download_report(
+                        candidate,
+                        settings.temp_dir,
+                        browser_context=browser_context,
+                    )
                     pdf_path = settings.temp_dir / downloaded.pdf_path
                     try:
                         markdown = convert_pdf_to_markdown(pdf_path)
@@ -74,6 +82,7 @@ def run_pipeline() -> int:
                     finally:
                         _cleanup_file(pdf_path)
         finally:
-            request_context.dispose()
+            browser_context.close()
+            browser.close()
 
     return 0

@@ -8,7 +8,7 @@ from html import unescape
 from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
 from bs4 import BeautifulSoup
-from playwright.sync_api import Error, sync_playwright
+from playwright.sync_api import Error, Page, sync_playwright
 from tqdm import tqdm
 
 from brh_reports.config import Settings, get_settings
@@ -140,26 +140,23 @@ def _parse_search_page(html: str, current_url: str, base_url: str) -> tuple[list
     return candidates, next_url, total_results
 
 
-def _fetch_search_page(playwright, url: str, settings: Settings, retries: int = 3) -> str:
+def _fetch_search_page(page: Page, url: str, settings: Settings, retries: int = 3) -> str:
     last_error: Exception | None = None
     for attempt in range(retries):
-        request_context = playwright.request.new_context(
-            base_url=settings.base_url,
-            extra_http_headers={"User-Agent": settings.user_agent},
-        )
         try:
-            response = request_context.get(url)
+            response = page.goto(url, wait_until="domcontentloaded")
+            if response is None:
+                raise RuntimeError(f"Failed to fetch search page: no response for {url}")
             if not response.ok:
                 if response.status == 429 or response.status >= 500:
                     time.sleep(settings.request_delay_seconds * (attempt + 2))
                     continue
                 raise RuntimeError(f"Failed to fetch search page: {url} ({response.status})")
-            return response.text()
+            page.wait_for_load_state("networkidle")
+            return page.content()
         except Error as exc:
             last_error = exc
             time.sleep(settings.request_delay_seconds * (attempt + 2))
-        finally:
-            request_context.dispose()
 
     raise RuntimeError(f"Failed to fetch search page after {retries} attempts: {url}") from last_error
 
@@ -171,8 +168,14 @@ def discover_report_candidates(settings: Settings | None = None) -> Iterable[Rep
     seen_pdf_urls: set[str] = set()
 
     with sync_playwright() as playwright:
+        browser = playwright.chromium.launch(headless=settings.headless)
+        context = browser.new_context(
+            user_agent=settings.user_agent,
+            locale="de-DE",
+        )
+        page = context.new_page()
         first_url = settings.page_url(1)
-        first_html = _fetch_search_page(playwright, first_url, settings)
+        first_html = _fetch_search_page(page, first_url, settings)
         page_url_builder = _extract_page_url_builder(first_html, settings)
         first_candidates, _, total_results = _parse_search_page(
             first_html,
@@ -197,7 +200,7 @@ def discover_report_candidates(settings: Settings | None = None) -> Iterable[Rep
         ) as progress:
             for page_number in range(2, total_pages + 1):
                 page_url = page_url_builder(page_number)
-                html = _fetch_search_page(playwright, page_url, settings)
+                html = _fetch_search_page(page, page_url, settings)
                 page_candidates, _, _ = _parse_search_page(
                     html,
                     current_url=page_url,
@@ -211,5 +214,7 @@ def discover_report_candidates(settings: Settings | None = None) -> Iterable[Rep
                 progress.update(1)
                 progress.set_postfix(reports=len(discovered))
                 time.sleep(settings.request_delay_seconds)
+        context.close()
+        browser.close()
 
     return discovered
