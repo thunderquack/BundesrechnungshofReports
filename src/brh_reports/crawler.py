@@ -4,7 +4,8 @@ import re
 import time
 from collections.abc import Iterable
 from collections.abc import Callable
-from urllib.parse import urljoin
+from html import unescape
+from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
 from bs4 import BeautifulSoup
 from playwright.sync_api import Error, sync_playwright
@@ -15,10 +16,8 @@ from brh_reports.models import ReportCandidate
 RESULT_COUNT_RE = re.compile(r"von\s+([\d.]+)\s+Ergebnissen")
 DATE_RE = re.compile(r"\b\d{2}\.\d{2}\.\d{4}\b")
 CURRENT_PAGE_RE = re.compile(r"Sie sind hier: Seite\s*(\d+)")
-FORWARD_LINK_RE = re.compile(
-    r'href="([^"]*gtp=20916_list%253D2[^"]*)"\s+title="Seite\s+2"\s+class="forward button"'
-)
-GTP_PAGE_RE = re.compile(r"gtp=20916_list%253D(\d+)")
+FORWARD_LINK_RE = re.compile(r'href="([^"]+)"\s+title="Seite\s+2"\s+class="forward button"')
+TRAILING_NUMBER_RE = re.compile(r"^(.*?)(\d+)$")
 
 
 def _normalize_whitespace(text: str) -> str:
@@ -49,10 +48,6 @@ def _extract_current_page(html: str, current_url: str) -> int:
     if match is not None:
         return int(match.group(1))
 
-    match = GTP_PAGE_RE.search(current_url)
-    if match is not None:
-        return int(match.group(1))
-
     return 1
 
 
@@ -61,18 +56,44 @@ def _extract_page_url_builder(first_page_html: str, settings: Settings) -> Calla
     if match is None:
         return settings.page_url
 
-    second_page_url = urljoin(settings.base_url, match.group(1))
-    page_match = GTP_PAGE_RE.search(second_page_url)
-    if page_match is None:
-        return settings.page_url
+    second_page_url = urljoin(settings.base_url, unescape(match.group(1)))
+    parsed = urlsplit(second_page_url)
+    query_items = parse_qsl(parsed.query, keep_blank_values=True)
 
-    prefix = second_page_url[: page_match.start(1)]
-    suffix = second_page_url[page_match.end(1) :]
+    page_parameter_index: int | None = None
+    page_parameter_prefix: str | None = None
+    for index, (key, value) in enumerate(query_items):
+        value_match = TRAILING_NUMBER_RE.match(value)
+        if value_match is None:
+            continue
+        prefix, trailing_number = value_match.groups()
+        if trailing_number != "2":
+            continue
+        page_parameter_index = index
+        page_parameter_prefix = prefix
+        break
+
+    if page_parameter_index is None or page_parameter_prefix is None:
+        return settings.page_url
 
     def build_page_url(page_number: int) -> str:
         if page_number <= 1:
             return settings.page_url(1)
-        return f"{prefix}{page_number}{suffix}"
+        updated_query_items = list(query_items)
+        key, _ = updated_query_items[page_parameter_index]
+        updated_query_items[page_parameter_index] = (
+            key,
+            f"{page_parameter_prefix}{page_number}",
+        )
+        return urlunsplit(
+            (
+                parsed.scheme,
+                parsed.netloc,
+                parsed.path,
+                urlencode(updated_query_items),
+                parsed.fragment,
+            )
+        )
 
     return build_page_url
 
