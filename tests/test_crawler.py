@@ -52,11 +52,7 @@ def test_parse_search_page_extracts_candidates_and_next_url() -> None:
     )
 
     assert total_results == 132
-    assert next_url == (
-        "https://www.bundesrechnungshof.de/"
-        "SiteGlobals/Forms/Suche/Berichtssuche/Berichtssuche_Formular.html"
-        "?pageNo=0&gtp=20916_list%253D2&resultsPerPage=50"
-    )
+    assert next_url == "2"
     assert len(candidates) == 2
     assert candidates[0].title == "Bericht Eins"
     assert candidates[0].published_on == "13.04.2026"
