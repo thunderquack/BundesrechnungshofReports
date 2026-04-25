@@ -26,4 +26,4 @@ jobs:
           python -m pip install -e .[dev]
 
       - name: Run sync pipeline
-        run: python -m brh_reports discover
+        run: python -m brh_reports run
