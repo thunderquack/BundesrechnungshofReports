@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bundesrechnungshof-reports"
+version = "0.1.0"
+description = "Automation scaffolding for downloading Bundesrechnungshof PDF reports and converting them to Markdown."
+requires-python = ">=3.13"
+dependencies = [
+    "playwright>=1.53.0,<2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0,<9.0.0",
+    "ruff>=0.11.0,<0.12.0",
+]
+
+[project.scripts]
+brh-reports = "brh_reports.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

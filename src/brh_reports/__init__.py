@@ -1,0 +1,2 @@
+"""Bundesrechnungshof report ingestion package."""
+
