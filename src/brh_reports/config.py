@@ -13,6 +13,8 @@ class Settings:
         "Berichtssuche/Berichtssuche_Formular.html"
     )
     temp_dir: Path = Path("data/tmp")
+    state_dir: Path = Path("state")
+    manifest_path: Path = Path("state/processed_reports.json")
     markdown_dir: Path = Path("reports/markdown")
     metadata_dir: Path = Path("reports/metadata")
     results_per_page: int = 50
