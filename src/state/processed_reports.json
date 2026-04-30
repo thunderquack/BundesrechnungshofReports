@@ -1,0 +1,787 @@
+{
+  "reports": [
+    {
+      "report_key": "15f893b6793fa756173448928768dd761ff6b4d1c5c82b1c46df15e7c99f0ab4",
+      "identity_value": "Information über die Entwicklung des Einzelplans 06 (Bundesministerium des Innern) für die Beratungen zum Bundeshaushalt 2026\n30.09.2025",
+      "title": "Information über die Entwicklung des Einzelplans 06 (Bundesministerium des Innern) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "30.09.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/06-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-09-30-information-ber-die-entwicklung-des-einzelplans-06-bundesministerium-des-innern-f-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "4465c028ea7c5ff599d8b5ce8b2f6bbd87bc5b9bea10f1606e88130cad561a32",
+      "identity_value": "Information über die Entwicklung des Einzelplans 25 (Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen) für die Beratungen zum Bundeshaushalt 2026\n29.09.2025",
+      "title": "Information über die Entwicklung des Einzelplans 25 (Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "29.09.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/25-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-09-29-information-u-ber-die-entwicklung-des-einzelplans-25-bundesministerium-f-r-wohnen-stadtentwicklung-und-bauwesen-fu-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "431e4e48edf47db2cb7859533956c9cafa17b7df63871bc91cede7f95ed78dbf",
+      "identity_value": "Umsetzung der Wasserstoffstrategie des Bundes\n28.10.2025",
+      "title": "Umsetzung der Wasserstoffstrategie des Bundes",
+      "published_on": "28.10.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/wasserstoffstrategie-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Sonderbericht",
+      "markdown_path": "reports/markdown/2025/2025-10-28-umsetzung-der-wasserstoffstrategie-des-bundes.md"
+    },
+    {
+      "report_key": "5c743183d0a91d133bb7b5cc810595fa8c5092d5815b1bd146e5ef13aa02032d",
+      "identity_value": "Delegationsreisen der Bundesratspräsidentinnen und -präsidenten ins Ausland\n28.10.2025",
+      "title": "Delegationsreisen der Bundesratspräsidentinnen und -präsidenten ins Ausland",
+      "published_on": "28.10.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/delegationsreisen-volltext.pdf?__blob=publicationFile&v=4",
+      "summary": "Abschließende Mitteilung an das Sekretariat des Bundesrates",
+      "markdown_path": "reports/markdown/2025/2025-10-28-delegationsreisen-der-bundesratspr-sidentinnen-und-pr-sidenten-ins-ausland.md"
+    },
+    {
+      "report_key": "3e4ae56c94e3d627e59c29227dcfb23916ed126c8ca00d46a08a2cf8ab44b1b7",
+      "identity_value": "Werkstätten der Bundespolizei seit 18 Jahren nicht bedarfsgerecht (Nr. 23)\n28.04.2026",
+      "title": "Werkstätten der Bundespolizei seit 18 Jahren nicht bedarfsgerecht (Nr. 23)",
+      "published_on": "28.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/ergaenzungsband-2025/23-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Bemerkungen 2025 Nr. 23",
+      "markdown_path": "reports/markdown/2026/2026-04-28-werkst-tten-der-bundespolizei-seit-18-jahren-nicht-bedarfsgerecht-nr-23.md"
+    },
+    {
+      "report_key": "c5201bc4850cea036b34883c3e168e37c0e600cda6732810d575e84b64616f44",
+      "identity_value": "Risiken in Millionenhöhe durch überlange Verfahren bei der Erstattung von Kapitalertragsteuer (Nr. 28)\n28.04.2026",
+      "title": "Risiken in Millionenhöhe durch überlange Verfahren bei der Erstattung von Kapitalertragsteuer (Nr. 28)",
+      "published_on": "28.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/ergaenzungsband-2025/28-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Bemerkungen 2025 Nr. 28",
+      "markdown_path": "reports/markdown/2026/2026-04-28-risiken-in-millionenh-he-durch-berlange-verfahren-bei-der-erstattung-von-kapitalertragsteuer-nr-28.md"
+    },
+    {
+      "report_key": "96edfbe766bc82eb06c61d464c931eea49da8a22d00a19e0f5a800f717e4cfba",
+      "identity_value": "Fehlendes WLAN bremst Digitalisierung der Bundeswehrkrankenhäuser (Nr. 26)\n28.04.2026",
+      "title": "Fehlendes WLAN bremst Digitalisierung der Bundeswehrkrankenhäuser (Nr. 26)",
+      "published_on": "28.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/ergaenzungsband-2025/26-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 26",
+      "markdown_path": "reports/markdown/2026/2026-04-28-fehlendes-wlan-bremst-digitalisierung-der-bundeswehrkrankenh-user-nr-26.md"
+    },
+    {
+      "report_key": "7e34c656038f1894dd5701707d464056b6151de24597dac206f150d49b06db8d",
+      "identity_value": "DRV Bund erfasst seit Jahrzehnten versicherungspflichtige Selbstständige nur lückenhaft (Nr. 24)\n28.04.2026",
+      "title": "DRV Bund erfasst seit Jahrzehnten versicherungspflichtige Selbstständige nur lückenhaft (Nr. 24)",
+      "published_on": "28.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/ergaenzungsband-2025/24-volltext.pdf?__blob=publicationFile&v=4",
+      "summary": "Bemerkungen 2025 Nr. 24",
+      "markdown_path": "reports/markdown/2026/2026-04-28-drv-bund-erfasst-seit-jahrzehnten-versicherungspflichtige-selbstst-ndige-nur-l-ckenhaft-nr-24.md"
+    },
+    {
+      "report_key": "a5a811c2770ca9e87dbcde58209ee1443661807a8a88525324ec48774fed5c15",
+      "identity_value": "Bundesagentur für Arbeit plante IT-Systeme fehlerhaft (Nr. 25)\n28.04.2026",
+      "title": "Bundesagentur für Arbeit plante IT-Systeme fehlerhaft (Nr. 25)",
+      "published_on": "28.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/ergaenzungsband-2025/25-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 25",
+      "markdown_path": "reports/markdown/2026/2026-04-28-bundesagentur-f-r-arbeit-plante-it-systeme-fehlerhaft-nr-25.md"
+    },
+    {
+      "report_key": "fd1085ceff0d309e2dd2e6fb44057b1420b519db30025acab4dda7d9c1e11ae4",
+      "identity_value": "Bemerkungen 2025 zur Haushalts- und Wirtschaftsführung des Bundes\n28.04.2026",
+      "title": "Bemerkungen 2025 zur Haushalts- und Wirtschaftsführung des Bundes",
+      "published_on": "28.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/ergaenzungsband-2025/ergaenzungsband-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Ergänzungsband zu den Bemerkungen 2025",
+      "markdown_path": "reports/markdown/2026/2026-04-28-bemerkungen-2025-zur-haushalts-und-wirtschaftsfu-hrung-des-bundes.md"
+    },
+    {
+      "report_key": "5de0f69d7bc2d7f55ef602bc593baaae59ce6a8330e6d59c3618f11a954b5ca8",
+      "identity_value": "BMG muss Versorgungslücken in der Substitutionstherapie schließen (Nr. 27)\n28.04.2026",
+      "title": "BMG muss Versorgungslücken in der Substitutionstherapie schließen (Nr. 27)",
+      "published_on": "28.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/ergaenzungsband-2025/27-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 27",
+      "markdown_path": "reports/markdown/2026/2026-04-28-bmg-muss-versorgungsl-cken-in-der-substitutionstherapie-schlie-en-nr-27.md"
+    },
+    {
+      "report_key": "05ea2c100360aa85ae072222c4a879058512810bab0f1bf91fba61c0d8a4769a",
+      "identity_value": "Neuausrichtung der Schienenverkehrsinfrastruktur – Entwurf des dritten Nachtrags zur Leistungs- und Finanzierungsvereinbarung III\n27.11.2025",
+      "title": "Neuausrichtung der Schienenverkehrsinfrastruktur – Entwurf des dritten Nachtrags zur Leistungs- und Finanzierungsvereinbarung III",
+      "published_on": "27.11.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/neuausrichtung-schiene-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages und an den Verkehrsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-11-27-neuausrichtung-der-schienenverkehrsinfrastruktur-entwurf-des-dritten-nachtrags-zur-leistungs-und-finanzierungsvereinbarung-iii.md"
+    },
+    {
+      "report_key": "4e9df481519df7d9c72642ba24ebe7d63cc3dceaba8234b093214924f47cb82f",
+      "identity_value": "Maßnahmen zur Reduzierung der Lebensmittelverschwendung (insbesondere Kapiel 1002 Titel 684 04) - Nationale Strategie zur Reduzierung der Lebensmittelverschwendung\n26.11.2025",
+      "title": "Maßnahmen zur Reduzierung der Lebensmittelverschwendung (insbesondere Kapiel 1002 Titel 684 04) - Nationale Strategie zur Reduzierung der Lebensmittelverschwendung",
+      "published_on": "26.11.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/lebensmittelverschwendung-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Landwirtschaft, Ernährung und Heimat",
+      "markdown_path": "reports/markdown/2025/2025-11-26-ma-nahmen-zur-reduzierung-der-lebensmittelverschwendung-insbesondere-kapiel-1002-titel-684-04-nationale-strategie-zur-reduzierung-der-lebensmittelverschwendung.md"
+    },
+    {
+      "report_key": "3c1518dc6d669c33279daf039f378346ef1c3e8f9e27ae33ee9e51f745ede932",
+      "identity_value": "Information über die Entwicklung des Einzelplans 07 (Bundesministerium der Justiz und für Verbraucherschutz) für die Beratungen zum Bundeshaushalt 2026\n26.09.2025",
+      "title": "Information über die Entwicklung des Einzelplans 07 (Bundesministerium der Justiz und für Verbraucherschutz) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "26.09.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/07-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-09-26-information-ber-die-entwicklung-des-einzelplans-07-bundesministerium-der-justiz-und-f-r-verbraucherschutz-f-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "e0008f7f0fb0ad5bf7a3344071ea9a72bf7a093c1dfd71971b62f94bb95260fe",
+      "identity_value": "Information über die Entwicklung des Einzelplans 11 (Bundesministerium für Arbeit und Soziales) für die Beratungen zum Bundeshaushalt 2026\n26.09.2025",
+      "title": "Information über die Entwicklung des Einzelplans 11 (Bundesministerium für Arbeit und Soziales) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "26.09.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/11-volltext.pdf?__blob=publicationFile&v=4",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-09-26-information-u-ber-die-entwicklung-des-einzelplans-11-bundesministerium-fu-r-arbeit-und-soziales-fu-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "35f7f33e1a1456ec9c181fe3625a11edac0a0252230026cf55a4aff5948624fa",
+      "identity_value": "Haushalts- und Wirtschaftsführung einschließlich der Jahresrechnung 2023 der Landwirtschaftlichen Rentenbank\n26.02.2026",
+      "title": "Haushalts- und Wirtschaftsführung einschließlich der Jahresrechnung 2023 der Landwirtschaftlichen Rentenbank",
+      "published_on": "26.02.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/lr-bank-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an die Landwirtschaftliche Rentenbank, das Bundesministerium für Landwirtschaft, Ernährung und Heimat, das Bundesministerium der Finanzen, die Bundesanstalt für Finanzdienstleistungsaufsicht",
+      "markdown_path": "reports/markdown/2026/2026-02-26-haushalts-und-wirtschaftsf-hrung-einschlie-lich-der-jahresrechnung-2023-der-landwirtschaftlichen-rentenbank.md"
+    },
+    {
+      "report_key": "48836b6ea64a2547ec8ccfb00a66c2ffe94f9c7ebcb3c7e92fc5301337b207a8",
+      "identity_value": "Information über die Entwicklung des Einzelplans 30 (Bundesministerium für Forschung, Technologie und Raumfahrt) für die Beratungen zum Bundeshaushalt 2026\n24.09.2025",
+      "title": "Information über die Entwicklung des Einzelplans 30 (Bundesministerium für Forschung, Technologie und Raumfahrt) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "24.09.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/30-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-09-24-information-u-ber-die-entwicklung-des-einzelplans-30-bundesministerium-f-r-forschung-technologie-und-raumfahrt-fu-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "6f815751911d8ac9915423cbd0d1e28add27305d6db299e2866b8e8920afe269",
+      "identity_value": "Berechnung des Durchschnittssatzes der Pauschallandwirte (§ 24 Umsatzsteuergesetz)\n24.09.2025",
+      "title": "Berechnung des Durchschnittssatzes der Pauschallandwirte (§ 24 Umsatzsteuergesetz)",
+      "published_on": "24.09.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/pauschallandwirte-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium der Finanzen",
+      "markdown_path": "reports/markdown/2025/2025-09-24-berechnung-des-durchschnittssatzes-der-pauschallandwirte-24-umsatzsteuergesetz.md"
+    },
+    {
+      "report_key": "aef10c7f61ffaa2b78db5aa941f7e8593a9d54f374611f4402a5a446a00d536b",
+      "identity_value": "Information über die Entwicklung des Einzelplans 05 (Auswärtiges Amt) für die Beratungen zum Bundeshaushalt 2026\n23.09.2025",
+      "title": "Information über die Entwicklung des Einzelplans 05 (Auswärtiges Amt) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "23.09.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/05-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-09-23-information-ber-die-entwicklung-des-einzelplans-05-auswa-rtiges-amt-f-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "9eb47a3146ae92305e8c994dea5e1b2de98469e8627212b5f797a2a19963c89e",
+      "identity_value": "Information über die Entwicklung des Einzelplans 60 (Allgemeine Finanzverwaltung) für die Beratungen zum Bundeshaushalt 2026\n22.10.2025",
+      "title": "Information über die Entwicklung des Einzelplans 60 (Allgemeine Finanzverwaltung) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "22.10.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/60-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-10-22-information-u-ber-die-entwicklung-des-einzelplans-60-allgemeine-finanzverwaltung-fu-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "9ffd69c754af7264282ba1ae7872d9f8daf65eb4f91d9d01966607b88835a0dc",
+      "identity_value": "Information über die Entwicklung des Einzelplans 32 (Bundesschuld) für die Beratungen zum Bundeshaushalt 2026\n22.10.2025",
+      "title": "Information über die Entwicklung des Einzelplans 32 (Bundesschuld) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "22.10.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/32-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-10-22-information-u-ber-die-entwicklung-des-einzelplans-32-bundesschuld-fu-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "5bef7f046457a7acd0370c7d006369e6b11a461bb0b478075f6b8af210eeef3f",
+      "identity_value": "Beratungen zum Entwurf des Wirtschaftsplans 2026 für das Sondervermögen Infrastruktur und Klimaneutralität (SVIK)\n22.10.2025",
+      "title": "Beratungen zum Entwurf des Wirtschaftsplans 2026 für das Sondervermögen Infrastruktur und Klimaneutralität (SVIK)",
+      "published_on": "22.10.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/wirschaftsplan-svik-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-10-22-beratungen-zum-entwurf-des-wirtschaftsplans-2026-f-r-das-sonderverm-gen-infrastruktur-und-klimaneutralit-t-svik.md"
+    },
+    {
+      "report_key": "0ea4d125a3838ba42ed956c92de2fca5327c6b003ec3507a755c15671e6682cf",
+      "identity_value": "Information über die Entwicklung des Einzelplans 08 (Bundesministerium der Finanzen) für die Beratungen zum Bundeshaushalt 2026\n22.09.2025",
+      "title": "Information über die Entwicklung des Einzelplans 08 (Bundesministerium der Finanzen) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "22.09.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/08-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-09-22-information-ber-die-entwicklung-des-einzelplans-08-bundesministerium-der-finanzen-f-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "9c89bd8a60e8ab6010e709e2eed394ce1b6bc65005ac98c922e19ff488847eeb",
+      "identity_value": "Information über die Entwicklung des Einzelplans 14 (Bundesministerium der Verteidigung) für die Beratungen zum Bundeshaushalt 2026\n22.09.2025",
+      "title": "Information über die Entwicklung des Einzelplans 14 (Bundesministerium der Verteidigung) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "22.09.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/14-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-09-22-information-u-ber-die-entwicklung-des-einzelplans-14-bundesministerium-der-verteidigung-fu-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "8cfb6865258aa1b51acf7f9805dbb0857672dd5fb8caaec86001401526812e1f",
+      "identity_value": "Prüfung des Stiftungsberichts des Bundes\n20.11.2025",
+      "title": "Prüfung des Stiftungsberichts des Bundes",
+      "published_on": "20.11.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/stiftungsbericht-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Rechnungsprüfungsausschuss des Haushaltsausschusses des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-11-20-pr-fung-des-stiftungsberichts-des-bundes.md"
+    },
+    {
+      "report_key": "0b076fc562bde49c78cb3050b4c6227e95e50f0bd321ed16da82faef8d012b55",
+      "identity_value": "Darlehensgewährung im SGB II\n20.01.2026",
+      "title": "Darlehensgewährung im SGB II",
+      "published_on": "20.01.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/darlehen-sgb-II-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2026/2026-01-20-darlehensgew-hrung-im-sgb-ii.md"
+    },
+    {
+      "report_key": "438b5a834c1b16db674f974d9c7f09e174d8ecbc316db0eec8a39d35920abb86",
+      "identity_value": "Ausgaben für die Forschungsförderung von Technologievorhaben der zivilen Luftfahrt und für klimaneutrales Fliegen – Kapitel 0901 Titel 683 31 und Kapitel 6092 Titel 683 05\n19.12.2025",
+      "title": "Ausgaben für die Forschungsförderung von Technologievorhaben der zivilen Luftfahrt und für klimaneutrales Fliegen – Kapitel 0901 Titel 683 31 und Kapitel 6092 Titel 683 05",
+      "published_on": "19.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/forschungsfoerderung-zivile-luftfahrt-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Wirtschaft und Energie",
+      "markdown_path": "reports/markdown/2025/2025-12-19-ausgaben-f-r-die-forschungsf-rderung-von-technologievorhaben-der-zivilen-luftfahrt-und-f-r-klimaneutrales-fliegen-kapitel-0901-titel-683-31-und-kapitel-6092-titel-683-05.md"
+    },
+    {
+      "report_key": "0073d7b30f640a64b2f35ecd367840992dd2605cf773a16cd5204e788f22f670",
+      "identity_value": "Förderung von Grundkompetenzen als berufliche Weiterbildung im Rechtskreis des SGB II\n19.11.2025",
+      "title": "Förderung von Grundkompetenzen als berufliche Weiterbildung im Rechtskreis des SGB II",
+      "published_on": "19.11.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/grundkompetenzen-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Prüfungsmitteilung an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2025/2025-11-19-f-rderung-von-grundkompetenzen-als-berufliche-weiterbildung-im-rechtskreis-des-sgb-ii.md"
+    },
+    {
+      "report_key": "b6d4e9b0d14629ddfb523b0da2ad0862aa0738528b8a0c471336fcbdf15ba891",
+      "identity_value": "Information über die Entwicklung des Einzelplans 23 (Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung) für die Beratungen zum Bundeshaushalt 2026\n19.09.2025",
+      "title": "Information über die Entwicklung des Einzelplans 23 (Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "19.09.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/23-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-09-19-information-ber-die-entwicklung-des-einzelplans-23-bundesministerium-fu-r-wirtschaftliche-zusammenarbeit-und-entwicklung-f-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "53fae0a3725c7763e16fae4c71a06ab86a16acdc11f8be292bf301a11d7e545d",
+      "identity_value": "Sicherungsniveau vor Steuern als Mess- und Zielgröße in der gesetzlichen Rentenversicherung nicht geeignet\n19.03.2026",
+      "title": "Sicherungsniveau vor Steuern als Mess- und Zielgröße in der gesetzlichen Rentenversicherung nicht geeignet",
+      "published_on": "19.03.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/sicherungsniveau-vor-steuern-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Beratungsbericht an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2026/2026-03-19-sicherungsniveau-vor-steuern-als-mess-und-zielgr-e-in-der-gesetzlichen-rentenversicherung-nicht-geeignet.md"
+    },
+    {
+      "report_key": "4cc68e70a50aa5c780450ee205df55315b6fee64492319b163c61517473c171d",
+      "identity_value": "Europäische Klimaschutzinitiative (EUKI) – Kapitel 0903 Titel 532 45\n18.12.2025",
+      "title": "Europäische Klimaschutzinitiative (EUKI) – Kapitel 0903 Titel 532 45",
+      "published_on": "18.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/euki-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Wirtschaft und Energie",
+      "markdown_path": "reports/markdown/2025/2025-12-18-europa-ische-klimaschutzinitiative-euki-kapitel-0903-titel-532-45.md"
+    },
+    {
+      "report_key": "fa52a3578941406a1a4339b6ca6947c053cc280bd9e33448d23afc217b7e891c",
+      "identity_value": "Finanzhilfen nach dem Gesetz zur Förderung von Investitionen finanzschwacher Kommunen (KInvFG)\n18.03.2026",
+      "title": "Finanzhilfen nach dem Gesetz zur Förderung von Investitionen finanzschwacher Kommunen (KInvFG)",
+      "published_on": "18.03.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/finanzhilfen-kinvfg-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an das Bundesministerium der Finanzen",
+      "markdown_path": "reports/markdown/2026/2026-03-18-finanzhilfen-nach-dem-gesetz-zur-f-rderung-von-investitionen-finanzschwacher-kommunen-kinvfg.md"
+    },
+    {
+      "report_key": "2d73e716152e84a93b489f5733522ce8526db341422fee19fe2aa8488700d936",
+      "identity_value": "Förderung schwer zu erreichender junger Menschen nach § 16h SGB II – Vergabemaßnahmen bei zugelassenen kommunalen Trägern\n15.12.2025",
+      "title": "Förderung schwer zu erreichender junger Menschen nach § 16h SGB II – Vergabemaßnahmen bei zugelassenen kommunalen Trägern",
+      "published_on": "15.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/schwer-erreichbare-menschen-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2025/2025-12-15-f-rderung-schwer-zu-erreichender-junger-menschen-nach-16h-sgb-ii-vergabema-nahmen-bei-zugelassenen-kommunalen-tr-gern.md"
+    },
+    {
+      "report_key": "f963af20d6f06c6d5c8a9e6542f64edfb1e066636ca534908058fd23ddc22e60",
+      "identity_value": "Wahrnehmung der Fachaufsicht im SGB II – Interne Fachaufsicht bei zugelassenen kommunalen Trägern\n15.10.2025",
+      "title": "Wahrnehmung der Fachaufsicht im SGB II – Interne Fachaufsicht bei zugelassenen kommunalen Trägern",
+      "published_on": "15.10.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/fachaufsicht-sgb-II-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2025/2025-10-15-wahrnehmung-der-fachaufsicht-im-sgb-ii-interne-fachaufsicht-bei-zugelassenen-kommunalen-tr-gern.md"
+    },
+    {
+      "report_key": "eb6a75da199cf18951703591dcf2b4d65e01d794745ffef0f18cc93e483d568e",
+      "identity_value": "Vollstreckung bei der Kraftfahrzeugsteuer – Teil 4: Außenkommunikation\n13.11.2025",
+      "title": "Vollstreckung bei der Kraftfahrzeugsteuer – Teil 4: Außenkommunikation",
+      "published_on": "13.11.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/vollstreckung-kraftfahrzeugsteuer-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Prüfungsmitteilung an das Bundesministerium der Finanzen",
+      "markdown_path": "reports/markdown/2025/2025-11-13-vollstreckung-bei-der-kraftfahrzeugsteuer-teil-4-au-enkommunikation.md"
+    },
+    {
+      "report_key": "fd1233b0a91dbc7469e06f4dbe262e2e1e88abbb3da61ff4d0e56505a5e28b03",
+      "identity_value": "Beteiligungs-Monitoring- und Informationssystem (BeMIS) in der Bundesverwaltung\n13.11.2025",
+      "title": "Beteiligungs-Monitoring- und Informationssystem (BeMIS) in der Bundesverwaltung",
+      "published_on": "13.11.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/bemis-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium der Finanzen",
+      "markdown_path": "reports/markdown/2025/2025-11-13-beteiligungs-monitoring-und-informationssystem-bemis-in-der-bundesverwaltung.md"
+    },
+    {
+      "report_key": "1375b06621be544884b5e5d1f83b2c5e9c4feab9ca38cbf08f56a7e733a04456",
+      "identity_value": "Chief Data Scientists und Datenlabore in der Bundesverwaltung – Teil 2 – Infrastruktur, Informationssicherheit und Wirtschaftlichkeit\n13.04.2026",
+      "title": "Chief Data Scientists und Datenlabore in der Bundesverwaltung – Teil 2 – Infrastruktur, Informationssicherheit und Wirtschaftlichkeit",
+      "published_on": "13.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/datenlabore-2-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an die Bundesregierung",
+      "markdown_path": "reports/markdown/2026/2026-04-13-chief-data-scientists-und-datenlabore-in-der-bundesverwaltung-teil-2-infrastruktur-informationssicherheit-und-wirtschaftlichkeit.md"
+    },
+    {
+      "report_key": "7b8d7b9b99726f113e9abd3eca915febbfda11737c625403b7f5b03862161cff",
+      "identity_value": "Chief Data Scientists und Datenlabore in der Bundesverwaltung – Teil 1 – Ziele, Gremien und Organisation\n13.04.2026",
+      "title": "Chief Data Scientists und Datenlabore in der Bundesverwaltung – Teil 1 – Ziele, Gremien und Organisation",
+      "published_on": "13.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/datenlabore-1-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an die Bundesregierung",
+      "markdown_path": "reports/markdown/2026/2026-04-13-chief-data-scientists-und-datenlabore-in-der-bundesverwaltung-teil-1-ziele-gremien-und-organisation.md"
+    },
+    {
+      "report_key": "e08e4f0a5a699df738bbd301b4430beadb19b7a97f602d36cd80879fee7b1a12",
+      "identity_value": "Steuerrückstände aus der Besteuerung von Altersrenten vermeidbar\n13.02.2026",
+      "title": "Steuerrückstände aus der Besteuerung von Altersrenten vermeidbar",
+      "published_on": "13.02.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/steuerrueckstaende-altersrente-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an das Bundesministerium der Finanzen",
+      "markdown_path": "reports/markdown/2026/2026-02-13-steuerr-ckst-nde-aus-der-besteuerung-von-altersrenten-vermeidbar.md"
+    },
+    {
+      "report_key": "a17658446f1c26ea41bc62e990e83b4adf382e82171593cee6ceeb997f93bec7",
+      "identity_value": "Stellungnahme zur öffentlichen Anhörung am 15. Dezember 2025 – Beschaffung (medizinisches Material, Impfstoffe) und Versorgungssicherheit\n12.12.2025",
+      "title": "Stellungnahme zur öffentlichen Anhörung am 15. Dezember 2025 – Beschaffung (medizinisches Material, Impfstoffe) und Versorgungssicherheit",
+      "published_on": "12.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/corona-enquete-kommission-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an die Enquete-Kommission des Deutschen Bundestages zur Aufarbeitung der Corona-Pandemie und Lehren für zukünftige pandemische Ereignisse",
+      "markdown_path": "reports/markdown/2025/2025-12-12-stellungnahme-zur-ffentlichen-anh-rung-am-15-dezember-2025-beschaffung-medizinisches-material-impfstoffe-und-versorgungssicherheit.md"
+    },
+    {
+      "report_key": "bc56dba784bb795acc30b87fcb9c3b2c77e0bda28209bcb3eafdbfdfe687c095",
+      "identity_value": "Verwertung BEV-eigener Grundstücke – Verkauf von Grundstücksflächen an Eisenbahner-Sportvereine\n12.11.2025",
+      "title": "Verwertung BEV-eigener Grundstücke – Verkauf von Grundstücksflächen an Eisenbahner-Sportvereine",
+      "published_on": "12.11.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/verwertung-bev-grundstuecke-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Beratungsbericht an den Rechnungsprüfungsausschuss des Haushaltsausschusses des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-11-12-verwertung-bev-eigener-grundst-cke-verkauf-von-grundst-cksfl-chen-an-eisenbahner-sportvereine.md"
+    },
+    {
+      "report_key": "01ac0a1bd4627c375d5cd0101d066c7f79606b189c691a9e84f3bf3f20479984",
+      "identity_value": "Schriftliche Stellungnahme für die Beratungen der Alterssicherungskommission\n12.03.2026",
+      "title": "Schriftliche Stellungnahme für die Beratungen der Alterssicherungskommission",
+      "published_on": "12.03.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/stellungnahme-alterssicherungskommission-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Beratungsbericht an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2026/2026-03-12-schriftliche-stellungnahme-f-r-die-beratungen-der-alterssicherungskommission.md"
+    },
+    {
+      "report_key": "899580e5822c16447b031d78187f0c2947d68fefeccec0c27f37280d98573287",
+      "identity_value": "Prüfung der Ergänzungshilfen für stationäre Pflegeeinrichtungen zum Ausgleich steigender Preise für Erdgas, Wärme und Strom\n12.02.2026",
+      "title": "Prüfung der Ergänzungshilfen für stationäre Pflegeeinrichtungen zum Ausgleich steigender Preise für Erdgas, Wärme und Strom",
+      "published_on": "12.02.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/ergaenzungshilfe-pflegeeinrichtungen-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2026/2026-02-12-pr-fung-der-erg-nzungshilfen-f-r-station-re-pflegeeinrichtungen-zum-ausgleich-steigender-preise-f-r-erdgas-w-rme-und-strom.md"
+    },
+    {
+      "report_key": "150fbb3c9c09f92d6b0f7572bd17785c9c42cf783715bbbf22b7ea2e22b7586f",
+      "identity_value": "Aufrechnung gegen Ansprüche von leistungsberechtigten Personen\n12.01.2026",
+      "title": "Aufrechnung gegen Ansprüche von leistungsberechtigten Personen",
+      "published_on": "12.01.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/aufrechnung-ansprueche-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2026/2026-01-12-aufrechnung-gegen-anspr-che-von-leistungsberechtigten-personen.md"
+    },
+    {
+      "report_key": "4dee252bdd1c3d20e03dcff91d4a582a353d500a0ed5fc8a0c15dbf7ac5189ec",
+      "identity_value": "Wehrforschung besser am Bedarf der Streitkräfte ausrichten\n10.12.2025",
+      "title": "Wehrforschung besser am Bedarf der Streitkräfte ausrichten",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/15-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 15",
+      "markdown_path": "reports/markdown/2025/2025-12-10-wehrforschung-besser-am-bedarf-der-streitkr-fte-ausrichten.md"
+    },
+    {
+      "report_key": "e230da5ed379425c32502e9e47a0bd32e5716e9a248b56a400e5f1f3b41cd98a",
+      "identity_value": "Trotz Dauerkrise der DB AG: BMV verstößt gegen gesetzliche Rechenschaftspflicht\n10.12.2025",
+      "title": "Trotz Dauerkrise der DB AG: BMV verstößt gegen gesetzliche Rechenschaftspflicht",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/07-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 7",
+      "markdown_path": "reports/markdown/2025/2025-12-10-trotz-dauerkrise-der-db-ag-bmv-verst-t-gegen-gesetzliche-rechenschaftspflicht.md"
+    },
+    {
+      "report_key": "126c28c250db79ab22a499db584341fd34bcfac7f9dedabe0d3d4b0e55298528",
+      "identity_value": "Steuervorteil auf landwirtschaftliche Tätigkeit begrenzen\n10.12.2025",
+      "title": "Steuervorteil auf landwirtschaftliche Tätigkeit begrenzen",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/19-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 19",
+      "markdown_path": "reports/markdown/2025/2025-12-10-steuervorteil-auf-landwirtschaftliche-t-tigkeit-begrenzen.md"
+    },
+    {
+      "report_key": "c0033dffd397d596302e548474ef4b3c0bcfbd1cc32108283e2fd18b82bfd2a7",
+      "identity_value": "Steuerermäßigung für Handwerkerleistungen – unwirksame Subvention endlich abschaffen\n10.12.2025",
+      "title": "Steuerermäßigung für Handwerkerleistungen – unwirksame Subvention endlich abschaffen",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/22-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 22",
+      "markdown_path": "reports/markdown/2025/2025-12-10-steuererm-igung-f-r-handwerkerleistungen-unwirksame-subvention-endlich-abschaffen.md"
+    },
+    {
+      "report_key": "0b0c76e96078fda738798f426d4354dc9bc8913607341f14650afec34cfca940",
+      "identity_value": "Steuerausfälle durch unangemessene Gewinnverlagerung ins Ausland verringern\n10.12.2025",
+      "title": "Steuerausfälle durch unangemessene Gewinnverlagerung ins Ausland verringern",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/21-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 21",
+      "markdown_path": "reports/markdown/2025/2025-12-10-steuerausf-lle-durch-unangemessene-gewinnverlagerung-ins-ausland-verringern.md"
+    },
+    {
+      "report_key": "ea4fbee535be1e6555d82dcfe58f938c5ed879921b24d6deac8adba49b889885",
+      "identity_value": "Netze des Bundes: Fehlendes Architekturmanagement gefährdet die Konsolidierung\n10.12.2025",
+      "title": "Netze des Bundes: Fehlendes Architekturmanagement gefährdet die Konsolidierung",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/16-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 16",
+      "markdown_path": "reports/markdown/2025/2025-12-10-netze-des-bundes-fehlendes-architekturmanagement-gef-hrdet-die-konsolidierung.md"
+    },
+    {
+      "report_key": "efb65be4c7dabc428760e5299ad66f2c34eff15783c2e0fba43315b7033f0845",
+      "identity_value": "Nachhaltigkeitsprüfung bei Gesetzentwürfen: Bundesregierung informiert Gesetzgeber nur unzureichend\n10.12.2025",
+      "title": "Nachhaltigkeitsprüfung bei Gesetzentwürfen: Bundesregierung informiert Gesetzgeber nur unzureichend",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/02-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 2",
+      "markdown_path": "reports/markdown/2025/2025-12-10-nachhaltigkeitspr-fung-bei-gesetzentw-rfen-bundesregierung-informiert-gesetzgeber-nur-unzureichend.md"
+    },
+    {
+      "report_key": "33bea0ca31f5fa6de4eee2de2d19c0a79fb6291867ea1beab218b5203c819547",
+      "identity_value": "Kontrolllücke beim Kauf von EU-Neufahrzeugen besteht fort – Informationsaustausch in Papierform gefährdet Umsatzsteueraufkommen\n10.12.2025",
+      "title": "Kontrolllücke beim Kauf von EU-Neufahrzeugen besteht fort – Informationsaustausch in Papierform gefährdet Umsatzsteueraufkommen",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/18-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 18",
+      "markdown_path": "reports/markdown/2025/2025-12-10-kontrolll-cke-beim-kauf-von-eu-neufahrzeugen-besteht-fort-informationsaustausch-in-papierform-gef-hrdet-umsatzsteueraufkommen.md"
+    },
+    {
+      "report_key": "2fbe963b115bfbb61babc263be6687804f64a1061f5d29987ba32fb12933a6df",
+      "identity_value": "Kaum wirksam und zu teuer – Europäische Klimaschutzinitiative einstellen\n10.12.2025",
+      "title": "Kaum wirksam und zu teuer – Europäische Klimaschutzinitiative einstellen",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/05-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 5",
+      "markdown_path": "reports/markdown/2025/2025-12-10-kaum-wirksam-und-zu-teuer-europ-ische-klimaschutzinitiative-einstellen.md"
+    },
+    {
+      "report_key": "0c2f7c26e67339688c2a49f8bfc8466171cd62d7a1e423dd73f99f3c12e67234",
+      "identity_value": "Gesetzgeber über Auswirkungen von Gesetzesvorhaben auf das Steueraufkommen informieren\n10.12.2025",
+      "title": "Gesetzgeber über Auswirkungen von Gesetzesvorhaben auf das Steueraufkommen informieren",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/20-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 20",
+      "markdown_path": "reports/markdown/2025/2025-12-10-gesetzgeber-ber-auswirkungen-von-gesetzesvorhaben-auf-das-steueraufkommen-informieren.md"
+    },
+    {
+      "report_key": "bd6f9c43626992433491ce2ef7eb4c221e8946a885726685db7c948a16f53967",
+      "identity_value": "Finanzierungskonzept für das Futurium gescheitert – BMFTR muss endlich gegensteuern\n10.12.2025",
+      "title": "Finanzierungskonzept für das Futurium gescheitert – BMFTR muss endlich gegensteuern",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/17-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 17",
+      "markdown_path": "reports/markdown/2025/2025-12-10-finanzierungskonzept-f-r-das-futurium-gescheitert-bmftr-muss-endlich-gegensteuern.md"
+    },
+    {
+      "report_key": "b4213e5e9e2761da2ed296022ee9cbd68204a51250763b331561ae6c96060ff6",
+      "identity_value": "Feststellungen zur Haushaltsrechnung und zur Vermögensrechnung des Bundes für das Haushaltsjahr 2024\n10.12.2025",
+      "title": "Feststellungen zur Haushaltsrechnung und zur Vermögensrechnung des Bundes für das Haushaltsjahr 2024",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/01-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 1",
+      "markdown_path": "reports/markdown/2025/2025-12-10-feststellungen-zur-haushaltsrechnung-und-zur-verm-gensrechnung-des-bundes-f-r-das-haushaltsjahr-2024.md"
+    },
+    {
+      "report_key": "89d5ce33d92f801be5d9b6b0971f24621c205ca981e2df853d2727e14dac9e6d",
+      "identity_value": "Fehlende Verpflichtung zur Teilnahme an Sprach- und Integrationskursen verzögert Integration\n10.12.2025",
+      "title": "Fehlende Verpflichtung zur Teilnahme an Sprach- und Integrationskursen verzögert Integration",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/06-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 6",
+      "markdown_path": "reports/markdown/2025/2025-12-10-fehlende-verpflichtung-zur-teilnahme-an-sprach-und-integrationskursen-verz-gert-integration.md"
+    },
+    {
+      "report_key": "15be1427b24b31c7aa3ee83445b3df89403f0ffd774084b6219061928b6c0271",
+      "identity_value": "Bemerkungen 2025 zur Haushalts- und Wirtschaftsführung des Bundes\n10.12.2025",
+      "title": "Bemerkungen 2025 zur Haushalts- und Wirtschaftsführung des Bundes",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/hauptband-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Gesamtband",
+      "markdown_path": "reports/markdown/2025/2025-12-10-bemerkungen-2025-zur-haushalts-und-wirtschaftsf-hrung-des-bundes.md"
+    },
+    {
+      "report_key": "26463991f1af55c55c00df0f74eb118d06d5369f59d0f65fd544918a5d51edcc",
+      "identity_value": "BMV muss klimaneutrale Verwaltung entschlossener anstreben\n10.12.2025",
+      "title": "BMV muss klimaneutrale Verwaltung entschlossener anstreben",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/08-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 8",
+      "markdown_path": "reports/markdown/2025/2025-12-10-bmv-muss-klimaneutrale-verwaltung-entschlossener-anstreben.md"
+    },
+    {
+      "report_key": "c45be30e1cfb7b70bef506ff2f2f2d44b83cb2aee99dc5472661d2fb5a684289",
+      "identity_value": "BMV muss beim Ersatz der Hochstraße Wetzlar alle Varianten im Wirtschaftlichkeitsvergleich betrachten\n10.12.2025",
+      "title": "BMV muss beim Ersatz der Hochstraße Wetzlar alle Varianten im Wirtschaftlichkeitsvergleich betrachten",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/11-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 11",
+      "markdown_path": "reports/markdown/2025/2025-12-10-bmv-muss-beim-ersatz-der-hochstra-e-wetzlar-alle-varianten-im-wirtschaftlichkeitsvergleich-betrachten.md"
+    },
+    {
+      "report_key": "8c5aab6e0147bdf005499eeb3aa1083ed0e6900f7403bb35864fcfb76b1afc52",
+      "identity_value": "BMV muss Erfolg der Planungsrichtlinien für Straßen nachweisen und Wirtschaftlichkeit gewährleisten\n10.12.2025",
+      "title": "BMV muss Erfolg der Planungsrichtlinien für Straßen nachweisen und Wirtschaftlichkeit gewährleisten",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/12-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 12",
+      "markdown_path": "reports/markdown/2025/2025-12-10-bmv-muss-erfolg-der-planungsrichtlinien-f-r-stra-en-nachweisen-und-wirtschaftlichkeit-gew-hrleisten.md"
+    },
+    {
+      "report_key": "fd63365dcb5932efb0f34cf544c1995fe87ac42f7d34b432a410ea42db5edb15",
+      "identity_value": "BMV förderte Konzerte und Skulpturen mit Mitteln der Schienenverkehrsinfrastruktur\n10.12.2025",
+      "title": "BMV förderte Konzerte und Skulpturen mit Mitteln der Schienenverkehrsinfrastruktur",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/10-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 10",
+      "markdown_path": "reports/markdown/2025/2025-12-10-bmv-f-rderte-konzerte-und-skulpturen-mit-mitteln-der-schienenverkehrsinfrastruktur.md"
+    },
+    {
+      "report_key": "3b9c4f0866c094372b8d454aa0e6ffb673bc3fb2ecbef512170c67049e8d2e81",
+      "identity_value": "BMDV ignoriert Haushaltsrecht: 87,5 Mio. Euro für unwirtschaftliche Förderung von Eisenbahnverkehrsunternehmen\n10.12.2025",
+      "title": "BMDV ignoriert Haushaltsrecht: 87,5 Mio. Euro für unwirtschaftliche Förderung von Eisenbahnverkehrsunternehmen",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/13-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Bemerkungen 2025 Nr. 13",
+      "markdown_path": "reports/markdown/2025/2025-12-10-bmdv-ignoriert-haushaltsrecht-87-5-mio-euro-f-r-unwirtschaftliche-f-rderung-von-eisenbahnverkehrsunternehmen.md"
+    },
+    {
+      "report_key": "deb77bd9dbf583c22eb294f97a3de32f5d042f1d7d0eba97cf9eb0f65f9bc931",
+      "identity_value": "Ausufernde Privatabrechnungen an Bundeswehrkrankenhäusern\n10.12.2025",
+      "title": "Ausufernde Privatabrechnungen an Bundeswehrkrankenhäusern",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/14-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 14",
+      "markdown_path": "reports/markdown/2025/2025-12-10-ausufernde-privatabrechnungen-an-bundeswehrkrankenh-usern.md"
+    },
+    {
+      "report_key": "1a6f3bc52083c881661e8336f9e699a5d143461c97b2ac3fc4e5e28053365169",
+      "identity_value": "Ausbau der Moselschleusen stoppen\n10.12.2025",
+      "title": "Ausbau der Moselschleusen stoppen",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/09-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 9",
+      "markdown_path": "reports/markdown/2025/2025-12-10-ausbau-der-moselschleusen-stoppen.md"
+    },
+    {
+      "report_key": "a161f04a2cb8b369b539e352c893152b1142246832152bf8214dac1f244f8ab0",
+      "identity_value": "35 Mio. Euro fehlinvestiert: BMF beschafft praxisuntaugliche Smartphones\n10.12.2025",
+      "title": "35 Mio. Euro fehlinvestiert: BMF beschafft praxisuntaugliche Smartphones",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/03-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 3",
+      "markdown_path": "reports/markdown/2025/2025-12-10-35-mio-euro-fehlinvestiert-bmf-beschafft-praxisuntaugliche-smartphones.md"
+    },
+    {
+      "report_key": "221128bb6f1a581e299555b1cde4991d79e0ebc50f96dd3b29342cad7d3e47b9",
+      "identity_value": "30 Jahre Luftfahrtforschungsprogramm: endlich Klarheit bei Zielen, Wirkung und Notwendigkeit schaffen\n10.12.2025",
+      "title": "30 Jahre Luftfahrtforschungsprogramm: endlich Klarheit bei Zielen, Wirkung und Notwendigkeit schaffen",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/04-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Bemerkungen 2025 Nr. 4",
+      "markdown_path": "reports/markdown/2025/2025-12-10-30-jahre-luftfahrtforschungsprogramm-endlich-klarheit-bei-zielen-wirkung-und-notwendigkeit-schaffen.md"
+    },
+    {
+      "report_key": "58b05e9fce86b7db59bd1d930cd33e74fc5d1a3f8b8fbd1c44e42334ff0a38d1",
+      "identity_value": "Ausgaben des BMUKN für Vorhaben der Ressortforschung beim Bundesamt für Naturschutz\n10.11.2025",
+      "title": "Ausgaben des BMUKN für Vorhaben der Ressortforschung beim Bundesamt für Naturschutz",
+      "published_on": "10.11.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/ressortforschung-bfn-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit",
+      "markdown_path": "reports/markdown/2025/2025-11-10-ausgaben-des-bmukn-f-r-vorhaben-der-ressortforschung-beim-bundesamt-f-r-naturschutz.md"
+    },
+    {
+      "report_key": "05828341a446efeaef88e1e2b02e99999882f90f830e9e4395233246d81357b7",
+      "identity_value": "Einkommensanrechnung bei Renten wegen Todes\n09.10.2025",
+      "title": "Einkommensanrechnung bei Renten wegen Todes",
+      "published_on": "09.10.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einkommensanrechnung-rente-wegen-todes-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2025/2025-10-09-einkommensanrechnung-bei-renten-wegen-todes.md"
+    },
+    {
+      "report_key": "46f614011ff43f9ccba02b7bf28916c0873ab6a4ee35e34ee166bad607233227",
+      "identity_value": "Entwicklungswichtige Vorhaben der politischen Stiftungen (Kapitel 2302 Titel 687 04) – Teil IV: Rosa-Luxemburg-Stiftung\n09.04.2026",
+      "title": "Entwicklungswichtige Vorhaben der politischen Stiftungen (Kapitel 2302 Titel 687 04) – Teil IV: Rosa-Luxemburg-Stiftung",
+      "published_on": "09.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/stiftung-rls-volltext.pdf?__blob=publicationFile&v=1",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "markdown_path": "reports/markdown/2026/2026-04-09-entwicklungswichtige-vorhaben-der-politischen-stiftungen-kapitel-2302-titel-687-04-teil-iv-rosa-luxemburg-stiftung.md"
+    },
+    {
+      "report_key": "b1472b96562fd4daf5ccb03ad967a377d34e966046a2ba26decab474116e342d",
+      "identity_value": "Entwicklungswichtige Vorhaben der politischen Stiftungen (Kapitel 2302 Titel 687 04) – Teil III: Hanns-Seidel-Stiftung\n09.04.2026",
+      "title": "Entwicklungswichtige Vorhaben der politischen Stiftungen (Kapitel 2302 Titel 687 04) – Teil III: Hanns-Seidel-Stiftung",
+      "published_on": "09.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/stiftung-hss-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "markdown_path": "reports/markdown/2026/2026-04-09-entwicklungswichtige-vorhaben-der-politischen-stiftungen-kapitel-2302-titel-687-04-teil-iii-hanns-seidel-stiftung.md"
+    },
+    {
+      "report_key": "6162f7ae3ea5bf7b8554c6571be8bcfc05246da0fc7212af875811211a31bf57",
+      "identity_value": "Entwicklungswichtige Vorhaben der politischen Stiftungen (Kapitel 2302 Titel 687 04) – Teil II: Heinrich-Böll-Stiftung\n09.04.2026",
+      "title": "Entwicklungswichtige Vorhaben der politischen Stiftungen (Kapitel 2302 Titel 687 04) – Teil II: Heinrich-Böll-Stiftung",
+      "published_on": "09.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/stiftung-hbs-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "markdown_path": "reports/markdown/2026/2026-04-09-entwicklungswichtige-vorhaben-der-politischen-stiftungen-kapitel-2302-titel-687-04-teil-ii-heinrich-b-ll-stiftung.md"
+    },
+    {
+      "report_key": "229313e5f13a22b566a3143cf6b6896942c8ddf7951572e7dbcd1ad11ba567ab",
+      "identity_value": "Entwicklungswichtige Vorhaben der politischen Stiftungen (Kapitel 2302 Titel 687 04) – Teil I: Friedrich-Naumann-Stiftung für die Freiheit\n09.04.2026",
+      "title": "Entwicklungswichtige Vorhaben der politischen Stiftungen (Kapitel 2302 Titel 687 04) – Teil I: Friedrich-Naumann-Stiftung für die Freiheit",
+      "published_on": "09.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/stiftung-fns-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "markdown_path": "reports/markdown/2026/2026-04-09-entwicklungswichtige-vorhaben-der-politischen-stiftungen-kapitel-2302-titel-687-04-teil-i-friedrich-naumann-stiftung-f-r-die-freiheit.md"
+    },
+    {
+      "report_key": "777e205f3946fd386f803fd96189ede2e56221af25e84bfb917a20e50c4b5d27",
+      "identity_value": "Kapazitäts- und Klimaschutzwirkungen des Vorhabens „Digitale Schiene Deutschland“ – Kapitel 1202 Titel 891 06 (bis 2024), Kapitel 6093 Titel 891 12 (ab 2025)\n08.12.2025",
+      "title": "Kapazitäts- und Klimaschutzwirkungen des Vorhabens „Digitale Schiene Deutschland“ – Kapitel 1202 Titel 891 06 (bis 2024), Kapitel 6093 Titel 891 12 (ab 2025)",
+      "published_on": "08.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/digitale-schiene-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-12-08-kapazit-ts-und-klimaschutzwirkungen-des-vorhabens-digitale-schiene-deutschland-kapitel-1202-titel-891-06-bis-2024-kapitel-6093-titel-891-12-ab-2025.md"
+    },
+    {
+      "report_key": "66b541807aa3d2969f13e78275facf21d530555e329d4a43f7b0b9a8439484dc",
+      "identity_value": "Regierungsentwurf eines Steueränderungsgesetzes 2025\n08.10.2025",
+      "title": "Regierungsentwurf eines Steueränderungsgesetzes 2025",
+      "published_on": "08.10.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/steueraenderungsgesetz-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Finanzausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-10-08-regierungsentwurf-eines-steuer-nderungsgesetzes-2025.md"
+    },
+    {
+      "report_key": "b1f51e4c5299205ad8a9e643d18063b1b99a14675d8aeeddd813882e141471b8",
+      "identity_value": "Beratungen zum Entwurf des Wirtschaftsplans 2026 des Klima- und Transformationsfonds (Kapitel 6092)\n08.10.2025",
+      "title": "Beratungen zum Entwurf des Wirtschaftsplans 2026 des Klima- und Transformationsfonds (Kapitel 6092)",
+      "published_on": "08.10.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/wirtschaftsplan-2026-ktf-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-10-08-beratungen-zum-entwurf-des-wirtschaftsplans-2026-des-klima-und-transformationsfonds-kapitel-6092.md"
+    },
+    {
+      "report_key": "b949f915b369e0dab6e459d7739d1925f34c014c1c344a0ea26e6118089b165e",
+      "identity_value": "Digitalisierung des Asylverfahrens\n08.01.2026",
+      "title": "Digitalisierung des Asylverfahrens",
+      "published_on": "08.01.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/digitalisierung-asyl-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesamt für Migration und Flüchtlinge",
+      "markdown_path": "reports/markdown/2026/2026-01-08-digitalisierung-des-asylverfahrens.md"
+    },
+    {
+      "report_key": "cbb9707e9021b9118ec7e162893dd9e2b91c6f8f33385b2d6fd1c9beb853dc38",
+      "identity_value": "Pflichtverletzungen im Bürgergeld\n07.04.2026",
+      "title": "Pflichtverletzungen im Bürgergeld",
+      "published_on": "07.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/pflichtverletzungen-buergergeld-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2026/2026-04-07-pflichtverletzungen-im-b-rgergeld.md"
+    },
+    {
+      "report_key": "d539a38e925edfcf6ed2d54f50f17c34a1af0787ee4e2740c36040cffcd42d44",
+      "identity_value": "Open Data – Datenqualität, Strategie und IT-Unterstützung\n06.11.2025",
+      "title": "Open Data – Datenqualität, Strategie und IT-Unterstützung",
+      "published_on": "06.11.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/open-data-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Ausschuss für Digitales und Staatsmodernisierung und den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-11-06-open-data-datenqualit-t-strategie-und-it-unterst-tzung.md"
+    },
+    {
+      "report_key": "341fead1191777b12cc42323e54976d94c067b8f2424b158ac17a31111e54b69",
+      "identity_value": "Gesundheitscoaching Jobcenter Leipzig – Projekt im Rahmen des Bundesprogramms rehapro\n06.11.2025",
+      "title": "Gesundheitscoaching Jobcenter Leipzig – Projekt im Rahmen des Bundesprogramms rehapro",
+      "published_on": "06.11.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/gesundheitscoaching-leipzig-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2025/2025-11-06-gesundheitscoaching-jobcenter-leipzig-projekt-im-rahmen-des-bundesprogramms-rehapro.md"
+    },
+    {
+      "report_key": "76a8887fe888c05ff48ea057344d3ab0a49645175f43f9ca8ff02688c92078a3",
+      "identity_value": "Entwurf des zweiten Finanzierungs- und Realisierungsplans der Autobahn GmbH des Bundes\n06.10.2025",
+      "title": "Entwurf des zweiten Finanzierungs- und Realisierungsplans der Autobahn GmbH des Bundes",
+      "published_on": "06.10.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/autobahn-gmbh-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-10-06-entwurf-des-zweiten-finanzierungs-und-realisierungsplans-der-autobahn-gmbh-des-bundes.md"
+    },
+    {
+      "report_key": "2ab68f25a5f5c7e52e80230624aa487e965f54e55d0dcf0b8641b5cff982ee22",
+      "identity_value": "Mehrbedarfe nach § 21 SGB II bei Jobcentern in zugelassener kommunaler Trägerschaft\n05.12.2025",
+      "title": "Mehrbedarfe nach § 21 SGB II bei Jobcentern in zugelassener kommunaler Trägerschaft",
+      "published_on": "05.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/mehrbedarfe-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2025/2025-12-05-mehrbedarfe-nach-21-sgb-ii-bei-jobcentern-in-zugelassener-kommunaler-tr-gerschaft.md"
+    },
+    {
+      "report_key": "90552f2591087bb11e77ca155109eb68847d11d908a0be9c08af9705008b77ac",
+      "identity_value": "Ermäßigter Umsatzsteuersatz – Legislaturperiode nutzen und Reformstau auflösen\n05.12.2025",
+      "title": "Ermäßigter Umsatzsteuersatz – Legislaturperiode nutzen und Reformstau auflösen",
+      "published_on": "05.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/ermae%C3%9Figter-umsatzsteuersatz-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Beratungsbericht an den Finanzausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-12-05-erm-igter-umsatzsteuersatz-legislaturperiode-nutzen-und-reformstau-aufl-sen.md"
+    },
+    {
+      "report_key": "df264c53cb326d929a3330ec06e6c84408d4052ee9cf002abfdc00dc77f01bc2",
+      "identity_value": "Extrabudgetäre Vergütung von Leistungen des Terminservice- und Versorgungsgesetzes in der ambulanten Versorgung\n05.02.2026",
+      "title": "Extrabudgetäre Vergütung von Leistungen des Terminservice- und Versorgungsgesetzes in der ambulanten Versorgung",
+      "published_on": "05.02.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/tsvg-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2026/2026-02-05-extrabudget-re-verg-tung-von-leistungen-des-terminservice-und-versorgungsgesetzes-in-der-ambulanten-versorgung.md"
+    },
+    {
+      "report_key": "d0304de6526debb6f9743dc0d848d12e039bff08b566ed2b17ad9bbcc6b8c81c",
+      "identity_value": "Berücksichtigung von Erwerbseinkommen durch Jobcenter in zugelassener kommunaler Trägerschaft\n03.12.2025",
+      "title": "Berücksichtigung von Erwerbseinkommen durch Jobcenter in zugelassener kommunaler Trägerschaft",
+      "published_on": "03.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/beruecksichtigung-erwerbseinkommen-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2025/2025-12-03-ber-cksichtigung-von-erwerbseinkommen-durch-jobcenter-in-zugelassener-kommunaler-tr-gerschaft.md"
+    },
+    {
+      "report_key": "e9928bdcdbff8116306206f65c5536529e891b3383ddce645cb03a8ce70aff82",
+      "identity_value": "Fehlende Mitwirkung in der Arbeitsvermittlung – Handlungsmöglichkeiten der Jobcenter verbessern\n02.10.2025",
+      "title": "Fehlende Mitwirkung in der Arbeitsvermittlung – Handlungsmöglichkeiten der Jobcenter verbessern",
+      "published_on": "02.10.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/buergergeld-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-10-02-fehlende-mitwirkung-in-der-arbeitsvermittlung-handlungsm-glichkeiten-der-jobcenter-verbessern.md"
+    },
+    {
+      "report_key": "78d17c65fb25f189c9a2f8a42b0d3e5b02d2dfb17476bb056a20e0293e05b23c",
+      "identity_value": "Information über die Entwicklung des Einzelplans 24 (Bundesministerium für Digitales und Staatsmodernisierung) für die Beratungen zum Bundeshaushalt 2026\n01.10.2025",
+      "title": "Information über die Entwicklung des Einzelplans 24 (Bundesministerium für Digitales und Staatsmodernisierung) für die Beratungen zum Bundeshaushalt 2026",
+      "published_on": "01.10.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/24-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2025/2025-10-01-information-ber-die-entwicklung-des-einzelplans-24-bundesministerium-f-r-digitales-und-staatsmodernisierung-f-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    }
+  ]
+}
