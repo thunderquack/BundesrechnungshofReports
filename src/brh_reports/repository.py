@@ -7,6 +7,8 @@ from pathlib import Path
 from brh_reports.identity import build_report_identity_value, build_report_key
 from brh_reports.models import DownloadedReport, ReportCandidate
 
+MAX_MARKDOWN_SLUG_LENGTH = 80
+
 
 def ensure_directories(*paths: Path) -> None:
     for path in paths:
@@ -25,6 +27,8 @@ def _build_markdown_path(report: ReportCandidate, markdown_dir: Path) -> Path:
         day, month, year = report.published_on.split(".")
         date_prefix = f"{year}-{month}-{day}"
     slug = _slugify(report.title)
+    if len(slug) > MAX_MARKDOWN_SLUG_LENGTH:
+        slug = f"{slug[:MAX_MARKDOWN_SLUG_LENGTH]}-{build_report_key(report)[:12]}"
     return markdown_dir / year / f"{date_prefix}-{slug}.md"
 
 

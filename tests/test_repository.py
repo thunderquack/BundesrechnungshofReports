@@ -42,3 +42,19 @@ def test_save_markdown_uses_year_folder(tmp_path: Path) -> None:
 
     assert output_path == tmp_path / "2026" / "2026-04-25-example-report.md"
     assert output_path.read_text(encoding="utf-8") == "# Example"
+
+
+def test_save_markdown_truncates_long_file_names(tmp_path: Path) -> None:
+    report = ReportCandidate(
+        title="Very Long Report Title " * 20,
+        detail_url="https://example.com/detail",
+        pdf_url="https://example.com/report.pdf",
+        published_on="25.04.2026",
+    )
+
+    output_path = save_markdown(report, "# Example", tmp_path)
+
+    assert output_path.parent == tmp_path / "2026"
+    assert output_path.suffix == ".md"
+    assert len(output_path.stem) < 120
+    assert output_path.read_text(encoding="utf-8") == "# Example"
