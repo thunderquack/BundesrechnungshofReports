@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+from datetime import date, datetime
 from pathlib import Path
 
 from brh_reports.identity import build_report_identity_value, build_report_key
@@ -62,13 +63,25 @@ def load_processed_reports(manifest_path: Path) -> dict[str, dict]:
     return processed
 
 
+def _parse_report_date(value: str | None) -> date:
+    if not value:
+        return date.min
+
+    for date_format in ("%d.%m.%Y", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(value, date_format).date()
+        except ValueError:
+            continue
+    return date.min
+
+
 def save_processed_reports(manifest_path: Path, processed_reports: dict[str, dict]) -> Path:
     manifest_path.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "reports": sorted(
             processed_reports.values(),
             key=lambda entry: (
-                entry.get("published_on") or "",
+                _parse_report_date(entry.get("published_on")),
                 entry.get("title") or "",
             ),
             reverse=True,

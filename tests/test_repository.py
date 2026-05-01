@@ -30,6 +30,36 @@ def test_manifest_roundtrip(tmp_path: Path) -> None:
     assert load_processed_reports(manifest_path)[payload["reports"][0]["report_key"]]["title"] == "Example Report"
 
 
+def test_save_processed_reports_sorts_by_publication_date_desc(tmp_path: Path) -> None:
+    manifest_path = tmp_path / "processed_reports.json"
+    entries = {
+        "older-high-day": {
+            "report_key": "older-high-day",
+            "title": "Older High Day",
+            "published_on": "31.10.2023",
+        },
+        "newer-low-day": {
+            "report_key": "newer-low-day",
+            "title": "Newer Low Day",
+            "published_on": "01.02.2026",
+        },
+        "middle": {
+            "report_key": "middle",
+            "title": "Middle",
+            "published_on": "15.04.2024",
+        },
+    }
+
+    save_processed_reports(manifest_path, entries)
+
+    payload = json.loads(manifest_path.read_text(encoding="utf-8"))
+    assert [entry["report_key"] for entry in payload["reports"]] == [
+        "newer-low-day",
+        "middle",
+        "older-high-day",
+    ]
+
+
 def test_save_markdown_uses_year_folder(tmp_path: Path) -> None:
     report = ReportCandidate(
         title="Example Report",
