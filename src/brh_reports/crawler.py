@@ -145,7 +145,7 @@ def _fetch_search_page(playwright, url: str, settings: Settings, retries: int = 
     for attempt in range(retries):
         request_context = playwright.request.new_context(
             base_url=settings.base_url,
-            extra_http_headers={"User-Agent": settings.user_agent},
+            extra_http_headers=settings.request_headers(),
         )
         try:
             response = request_context.get(url)
@@ -177,7 +177,11 @@ def _fetch_search_page_in_browser(playwright, url: str, settings: Settings, retr
         )
         page = context.new_page()
         try:
-            response = page.goto(url, wait_until="domcontentloaded")
+            page.set_extra_http_headers({"Accept-Language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7"})
+            warmup = page.goto(settings.base_url, wait_until="domcontentloaded")
+            if warmup is not None and not warmup.ok and warmup.status not in {403, 404}:
+                raise RuntimeError(f"Failed to warm up browser session: {settings.base_url} ({warmup.status})")
+            response = page.goto(url, wait_until="domcontentloaded", referer=settings.base_url)
             if response is None:
                 raise RuntimeError(f"Failed to fetch search page: {url} (no response)")
             if not response.ok:
