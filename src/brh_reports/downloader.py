@@ -4,6 +4,7 @@ from pathlib import Path
 
 from playwright.sync_api import APIRequestContext, sync_playwright
 
+from brh_reports.config import get_settings
 from brh_reports.identity import build_report_key
 from brh_reports.models import DownloadedReport, ReportCandidate
 
@@ -37,7 +38,10 @@ def download_report(
         output_path.write_bytes(response.body())
     else:
         with sync_playwright() as playwright:
-            request_context = playwright.request.new_context(extra_http_headers={"User-Agent": "Mozilla/5.0"})
+            settings = get_settings()
+            request_context = playwright.request.new_context(
+                extra_http_headers=settings.request_headers()
+            )
             try:
                 response = request_context.get(candidate.pdf_url)
                 if not response.ok:

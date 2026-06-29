@@ -56,7 +56,9 @@ def run_pipeline() -> int:
         return 0
 
     with sync_playwright() as playwright:
-        request_context = playwright.request.new_context(extra_http_headers={"User-Agent": settings.user_agent})
+        request_context = playwright.request.new_context(
+            extra_http_headers=settings.request_headers()
+        )
         try:
             with tqdm(new_candidates, desc="Processing new reports", unit="report") as progress:
                 for candidate in progress:
