@@ -1,4 +1,5 @@
-from brh_reports.crawler import _parse_search_page
+from brh_reports.config import Settings
+from brh_reports.crawler import _fetch_search_page, _parse_search_page
 
 
 def test_parse_search_page_extracts_candidates_and_next_url() -> None:
@@ -61,3 +62,40 @@ def test_parse_search_page_extracts_candidates_and_next_url() -> None:
         "https://www.bundesrechnungshof.de/"
         "SharedDocs/Downloads/DE/Berichte/2026/bericht-eins.pdf?__blob=publicationFile&v=1"
     )
+
+
+def test_fetch_search_page_falls_back_to_browser_on_403(monkeypatch) -> None:
+    class FakeResponse:
+        ok = False
+        status = 403
+
+    class FakeRequestContext:
+        def get(self, url: str) -> FakeResponse:
+            return FakeResponse()
+
+        def dispose(self) -> None:
+            return None
+
+    class FakeRequestFactory:
+        def new_context(self, **kwargs) -> FakeRequestContext:
+            return FakeRequestContext()
+
+    class FakePlaywright:
+        request = FakeRequestFactory()
+
+    called: list[tuple[str, int]] = []
+
+    def fake_browser_fetch(playwright, url: str, settings: Settings, retries: int = 3) -> str:
+        called.append((url, retries))
+        return "<html></html>"
+
+    monkeypatch.setattr("brh_reports.crawler._fetch_search_page_in_browser", fake_browser_fetch)
+
+    html = _fetch_search_page(
+        FakePlaywright(),
+        "https://example.test/search",
+        Settings(),
+    )
+
+    assert html == "<html></html>"
+    assert called == [("https://example.test/search", 3)]

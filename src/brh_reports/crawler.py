@@ -150,6 +150,8 @@ def _fetch_search_page(playwright, url: str, settings: Settings, retries: int = 
         try:
             response = request_context.get(url)
             if not response.ok:
+                if response.status == 403:
+                    return _fetch_search_page_in_browser(playwright, url, settings, retries - attempt)
                 if response.status == 429 or response.status >= 500:
                     time.sleep(settings.request_delay_seconds * (attempt + 2))
                     continue
@@ -162,6 +164,37 @@ def _fetch_search_page(playwright, url: str, settings: Settings, retries: int = 
             request_context.dispose()
 
     raise RuntimeError(f"Failed to fetch search page after {retries} attempts: {url}") from last_error
+
+
+def _fetch_search_page_in_browser(playwright, url: str, settings: Settings, retries: int = 3) -> str:
+    last_error: Exception | None = None
+    for attempt in range(retries):
+        browser = playwright.chromium.launch(headless=settings.headless)
+        context = browser.new_context(
+            base_url=settings.base_url,
+            user_agent=settings.user_agent,
+            locale="de-DE",
+        )
+        page = context.new_page()
+        try:
+            response = page.goto(url, wait_until="domcontentloaded")
+            if response is None:
+                raise RuntimeError(f"Failed to fetch search page: {url} (no response)")
+            if not response.ok:
+                if response.status == 429 or response.status >= 500:
+                    time.sleep(settings.request_delay_seconds * (attempt + 2))
+                    continue
+                raise RuntimeError(f"Failed to fetch search page: {url} ({response.status})")
+            page.wait_for_load_state("networkidle")
+            return page.content()
+        except Error as exc:
+            last_error = exc
+            time.sleep(settings.request_delay_seconds * (attempt + 2))
+        finally:
+            context.close()
+            browser.close()
+
+    raise RuntimeError(f"Failed to fetch search page after {retries} browser attempts: {url}") from last_error
 
 
 def discover_report_candidates(settings: Settings | None = None) -> Iterable[ReportCandidate]:
