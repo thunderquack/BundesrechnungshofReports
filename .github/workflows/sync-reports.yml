@@ -8,6 +8,7 @@ permissions:
 
 jobs:
   sync:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     env:
       PLAYWRIGHT_BROWSERS_PATH: "0"
