@@ -1,6 +1,87 @@
 {
   "reports": [
     {
+      "report_key": "a2a7a7ef0ab59aa81fd070c777bc646da109c793c27e00490c4be339eef0d39c",
+      "identity_value": "Belastung des Bundeshaushaltes durch die Zahlungen an die gesetzliche Rentenversicherung - Indikatoren für das finanzielle Engagement und die Belastung des Bundes\n22.06.2026",
+      "title": "Belastung des Bundeshaushaltes durch die Zahlungen an die gesetzliche Rentenversicherung - Indikatoren für das finanzielle Engagement und die Belastung des Bundes",
+      "published_on": "22.06.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/bundeshaushalt-drv-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Beratungsbericht an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2026/2026-06-22-belastung-des-bundeshaushaltes-durch-die-zahlungen-an-die-gesetzliche-rentenvers-a2a7a7ef0ab5.md"
+    },
+    {
+      "report_key": "75c780ca1813a4c2b186c099181bc4979b7393c24807703fa3879379c3dd2ad6",
+      "identity_value": "30. Subventionsbericht der Bundesregierung - Steuervergünstigungen\n16.06.2026",
+      "title": "30. Subventionsbericht der Bundesregierung - Steuervergünstigungen",
+      "published_on": "16.06.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/steuerverguenstigungen-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Rechnungsprüfungsausschuss des Haushaltsausschusses des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2026/2026-06-16-30-subventionsbericht-der-bundesregierung-steuerverg-nstigungen.md"
+    },
+    {
+      "report_key": "e46e7f3c9a4b1fde0e9f4edebc12fc3361e637f6cfb1098718974e77a7e8771d",
+      "identity_value": "Ganzheitliche Betreuung nach § 16k SGB II\n02.06.2026",
+      "title": "Ganzheitliche Betreuung nach § 16k SGB II",
+      "published_on": "02.06.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/ganzheitliche-betreuung-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2026/2026-06-02-ganzheitliche-betreuung-nach-16k-sgb-ii.md"
+    },
+    {
+      "report_key": "32cd39445467638d1af5b138e76ec998eb7bbaa22a562b62baaf6595e613a3ea",
+      "identity_value": "Erlass von Förderrichtlinien durch das Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit in den Jahren 2016 bis 2021 - Einzelplan 16 - Teil II: Anhörungsverfahren und Aktenführung\n02.06.2026",
+      "title": "Erlass von Förderrichtlinien durch das Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit in den Jahren 2016 bis 2021 - Einzelplan 16 - Teil II: Anhörungsverfahren und Aktenführung",
+      "published_on": "02.06.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/foederrichtlinien-bmu-2-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit",
+      "markdown_path": "reports/markdown/2026/2026-06-02-erlass-von-f-rderrichtlinien-durch-das-bundesministerium-f-r-umwelt-klimaschutz--32cd39445467.md"
+    },
+    {
+      "report_key": "82e8d5449df80c113a22168111ec8b006cb8dcca42ff9c1447ea708eeb3a6577",
+      "identity_value": "Erlass von Förderrichtlinien durch das Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit in den Jahren 2016 bis 2021 - Einzelplan 16 - Teil I: Haushaltsrechtliche Voraussetzungen und Abstimmungsprozesse\n02.06.2026",
+      "title": "Erlass von Förderrichtlinien durch das Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit in den Jahren 2016 bis 2021 - Einzelplan 16 - Teil I: Haushaltsrechtliche Voraussetzungen und Abstimmungsprozesse",
+      "published_on": "02.06.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/foederrichtlinien-bmu-1-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit",
+      "markdown_path": "reports/markdown/2026/2026-06-02-erlass-von-f-rderrichtlinien-durch-das-bundesministerium-f-r-umwelt-klimaschutz--82e8d5449df8.md"
+    },
+    {
+      "report_key": "72cecd32c890f7b106a25ce7997b58c0a27a2b3a6cdf39f1f2750b12e68b553b",
+      "identity_value": "Verfahren zur Ergänzung der Taxonomie-Verordnung\n12.05.2026",
+      "title": "Verfahren zur Ergänzung der Taxonomie-Verordnung",
+      "published_on": "12.05.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/taxonomie-verordnung-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2026/2026-05-12-verfahren-zur-erg-nzung-der-taxonomie-verordnung.md"
+    },
+    {
+      "report_key": "d5803b5f3d99291bd54c09d0e5707ea6a93926f45766e53714196bc42f765858",
+      "identity_value": "Bundesprogramm Nutztierhaltung (Kapitel 1005 Titelgruppe 05 Titel 686 52 und 893 52)\n12.05.2026",
+      "title": "Bundesprogramm Nutztierhaltung (Kapitel 1005 Titelgruppe 05 Titel 686 52 und 893 52)",
+      "published_on": "12.05.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/nutztierhaltung-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Landwirtschaft, Ernährung und Heimat",
+      "markdown_path": "reports/markdown/2026/2026-05-12-bundesprogramm-nutztierhaltung-kapitel-1005-titelgruppe-05-titel-686-52-und-893--d5803b5f3d99.md"
+    },
+    {
+      "report_key": "f6147e22e4adf6e1795e664d81024ffff9c9bb28e35314211c0ef126ace08226",
+      "identity_value": "Ausgaben der Deutschen Rentenversicherung Bund für externe Beratung - Kontrollprüfung\n06.05.2026",
+      "title": "Ausgaben der Deutschen Rentenversicherung Bund für externe Beratung - Kontrollprüfung",
+      "published_on": "06.05.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/drv-externe-beratung-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Beratungsbericht an den Rechnungsprüfungsausschuss des Haushaltsausschusses des Deutschen Bundestages",
+      "markdown_path": "reports/markdown/2026/2026-05-06-ausgaben-der-deutschen-rentenversicherung-bund-f-r-externe-beratung-kontrollpr-f-f6147e22e4ad.md"
+    },
+    {
+      "report_key": "a4c67913a1d3265b9a16372485fb9c4d17acdb3eb88d880ff9dc6aec9d501de8",
+      "identity_value": "Kreditaufnahme durch den Bund\n04.05.2026",
+      "title": "Kreditaufnahme durch den Bund",
+      "published_on": "04.05.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/kreditaufnahme-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Abschließende Mitteilung an das Bundesministerium der Finanzen",
+      "markdown_path": "reports/markdown/2026/2026-05-04-kreditaufnahme-durch-den-bund.md"
+    },
+    {
       "report_key": "3e4ae56c94e3d627e59c29227dcfb23916ed126c8ca00d46a08a2cf8ab44b1b7",
       "identity_value": "Werkstätten der Bundespolizei seit 18 Jahren nicht bedarfsgerecht (Nr. 23)\n28.04.2026",
       "title": "Werkstätten der Bundespolizei seit 18 Jahren nicht bedarfsgerecht (Nr. 23)",
@@ -62,6 +143,33 @@
       "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/ergaenzungsband-2025/27-volltext.pdf?__blob=publicationFile&v=2",
       "summary": "Bemerkungen 2025 Nr. 27",
       "markdown_path": "reports/markdown/2026/2026-04-28-bmg-muss-versorgungsl-cken-in-der-substitutionstherapie-schlie-en-nr-27.md"
+    },
+    {
+      "report_key": "6de91c7bb498181141d42d86cf75ff82f93f13c47abdc0e28d7b3827be9dff20",
+      "identity_value": "Umsatzsteuerbetrugsbekämpfung in Neugründungsfällen – Teilprüfung: Aussetzung der monatlichen Übermittlungspflicht\n21.04.2026",
+      "title": "Umsatzsteuerbetrugsbekämpfung in Neugründungsfällen – Teilprüfung: Aussetzung der monatlichen Übermittlungspflicht",
+      "published_on": "21.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/umsatzsteuerbetrugsbekaempfung-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium der Finanzen",
+      "markdown_path": "reports/markdown/2026/2026-04-21-umsatzsteuerbetrugsbek-mpfung-in-neugr-ndungsf-llen-teilpr-fung-aussetzung-der-m-6de91c7bb498.md"
+    },
+    {
+      "report_key": "3ee1e3331f8bca7ba1d012ba79a8f1c8b58bd0668cfcc3fb94aa386a078a2596",
+      "identity_value": "Vermittlungsvergütungen bei Vergabemaßnahmen im SGB II\n20.04.2026",
+      "title": "Vermittlungsvergütungen bei Vergabemaßnahmen im SGB II",
+      "published_on": "20.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/vermittlungsverguetungen-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2026/2026-04-20-vermittlungsverg-tungen-bei-vergabema-nahmen-im-sgb-ii.md"
+    },
+    {
+      "report_key": "fb49ea316fa3958e56a13b79f7f7446823d82322df7bfe27908bfcf69811a424",
+      "identity_value": "Auskunftspflichten von Trägern bei Leistungen zur Eingliederung in Arbeit\n17.04.2026",
+      "title": "Auskunftspflichten von Trägern bei Leistungen zur Eingliederung in Arbeit",
+      "published_on": "17.04.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/auskunftspflichten-eingliederung-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2026/2026-04-17-auskunftspflichten-von-tr-gern-bei-leistungen-zur-eingliederung-in-arbeit.md"
     },
     {
       "report_key": "1375b06621be544884b5e5d1f83b2c5e9c4feab9ca38cbf08f56a7e733a04456",
@@ -127,6 +235,15 @@
       "markdown_path": "reports/markdown/2026/2026-04-07-pflichtverletzungen-im-b-rgergeld.md"
     },
     {
+      "report_key": "6c29fe2ae2caedd7f602a63c9e3e9817fff710bc118add5e3cf5a2c7ac14d072",
+      "identity_value": "Segel setzen - Hafen Köln - Projekt im Rahmen des Bundesprogramms rehapro\n20.03.2026",
+      "title": "Segel setzen - Hafen Köln - Projekt im Rahmen des Bundesprogramms rehapro",
+      "published_on": "20.03.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/segel-setzen-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2026/2026-03-20-segel-setzen-hafen-k-ln-projekt-im-rahmen-des-bundesprogramms-rehapro.md"
+    },
+    {
       "report_key": "53fae0a3725c7763e16fae4c71a06ab86a16acdc11f8be292bf301a11d7e545d",
       "identity_value": "Sicherungsniveau vor Steuern als Mess- und Zielgröße in der gesetzlichen Rentenversicherung nicht geeignet\n19.03.2026",
       "title": "Sicherungsniveau vor Steuern als Mess- und Zielgröße in der gesetzlichen Rentenversicherung nicht geeignet",
@@ -188,6 +305,24 @@
       "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/tsvg-volltext.pdf?__blob=publicationFile&v=2",
       "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
       "markdown_path": "reports/markdown/2026/2026-02-05-extrabudget-re-verg-tung-von-leistungen-des-terminservice-und-versorgungsgesetzes-in-der-ambulanten-versorgung.md"
+    },
+    {
+      "report_key": "8618e597ba54115b8f0633ac58685e28024798ea34bf967d28fe1b32d0eff6f9",
+      "identity_value": "Ausgewählte Vorhaben der Entwicklungszusammenarbeit – Teil I: Libanon – UNICEF Libanon WASH (Phase III)\n05.02.2026",
+      "title": "Ausgewählte Vorhaben der Entwicklungszusammenarbeit – Teil I: Libanon – UNICEF Libanon WASH (Phase III)",
+      "published_on": "05.02.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/wash-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "markdown_path": "reports/markdown/2026/2026-02-05-ausgew-hlte-vorhaben-der-entwicklungszusammenarbeit-teil-i-libanon-unicef-libano-8618e597ba54.md"
+    },
+    {
+      "report_key": "ad7483197e8b8f91f2072647d9e92b1b20f967626e5b668c7cb204341d715104",
+      "identity_value": "Externe Beratungsleistungen beim Bundesministerium für Landwirtschaft, Ernährung und Heimat (BMLEH)\n28.01.2026",
+      "title": "Externe Beratungsleistungen beim Bundesministerium für Landwirtschaft, Ernährung und Heimat (BMLEH)",
+      "published_on": "28.01.2026",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/externe-berater-bmleh-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Landwirtschaft, Ernährung und Heimat",
+      "markdown_path": "reports/markdown/2026/2026-01-28-externe-beratungsleistungen-beim-bundesministerium-f-r-landwirtschaft-ern-hrung--ad7483197e8b.md"
     },
     {
       "report_key": "0b076fc562bde49c78cb3050b4c6227e95e50f0bd321ed16da82faef8d012b55",
@@ -260,6 +395,15 @@
       "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/15-volltext.pdf?__blob=publicationFile&v=2",
       "summary": "Bemerkungen 2025 Nr. 15",
       "markdown_path": "reports/markdown/2025/2025-12-10-wehrforschung-besser-am-bedarf-der-streitkr-fte-ausrichten.md"
+    },
+    {
+      "report_key": "99315d810c33fdd9bffa485fb502f31f2f878a4647659e75d23943ce8e2afcaf",
+      "identity_value": "Unterbringung von Besatzungen während Modernisierung von Schiffen viel zu teuer\n10.12.2025",
+      "title": "Unterbringung von Besatzungen während Modernisierung von Schiffen viel zu teuer",
+      "published_on": "10.12.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/hauptband-2025/13-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Bemerkungen 2025 Nr. 13",
+      "markdown_path": "reports/markdown/2025/2025-12-10-unterbringung-von-besatzungen-w-hrend-modernisierung-von-schiffen-viel-zu-teuer.md"
     },
     {
       "report_key": "e230da5ed379425c32502e9e47a0bd32e5716e9a248b56a400e5f1f3b41cd98a",
@@ -514,6 +658,33 @@
       "markdown_path": "reports/markdown/2025/2025-11-26-ma-nahmen-zur-reduzierung-der-lebensmittelverschwendung-insbesondere-kapiel-1002-titel-684-04-nationale-strategie-zur-reduzierung-der-lebensmittelverschwendung.md"
     },
     {
+      "report_key": "cda2e20ca5ab8ac70221df11ae5de9c147c4bf9b277b3afcd7744d3e8eedf0fe",
+      "identity_value": "Auftragsvergabe durch die Kreditanstalt für Wiederaufbau für Projekte der Finanziellen Zusammenarbeit – Teil 3: Feststellungen zu einzelnen Vergabevorgängen\n25.11.2025",
+      "title": "Auftragsvergabe durch die Kreditanstalt für Wiederaufbau für Projekte der Finanziellen Zusammenarbeit – Teil 3: Feststellungen zu einzelnen Vergabevorgängen",
+      "published_on": "25.11.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/kfw-zusammenarbeit-3-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "markdown_path": "reports/markdown/2025/2025-11-25-auftragsvergabe-durch-die-kreditanstalt-f-r-wiederaufbau-f-r-projekte-der-finanz-cda2e20ca5ab.md"
+    },
+    {
+      "report_key": "fa727d4d6d052ac01073b7d28df28d089e9155ea64d154e1bbead471697d3865",
+      "identity_value": "Auftragsvergabe durch die Kreditanstalt für Wiederaufbau für Projekte der Finanziellen Zusammenarbeit – Teil 2: Organisatorische Aspekte und Dokumentation\n25.11.2025",
+      "title": "Auftragsvergabe durch die Kreditanstalt für Wiederaufbau für Projekte der Finanziellen Zusammenarbeit – Teil 2: Organisatorische Aspekte und Dokumentation",
+      "published_on": "25.11.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/kfw-zusammenarbeit-2-volltext.pdf?__blob=publicationFile&v=3",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "markdown_path": "reports/markdown/2025/2025-11-25-auftragsvergabe-durch-die-kreditanstalt-f-r-wiederaufbau-f-r-projekte-der-finanz-fa727d4d6d05.md"
+    },
+    {
+      "report_key": "8d140e952fe25e8c41f0bde4e958313355ac892ee3401e815575351c37139121",
+      "identity_value": "Auftragsvergabe durch die Kreditanstalt für Wiederaufbau für Projekte der Finanziellen Zusammenarbeit – Teil 1: Grundsätzliche Feststellungen\n25.11.2025",
+      "title": "Auftragsvergabe durch die Kreditanstalt für Wiederaufbau für Projekte der Finanziellen Zusammenarbeit – Teil 1: Grundsätzliche Feststellungen",
+      "published_on": "25.11.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/kfw-zusammenarbeit-1-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "markdown_path": "reports/markdown/2025/2025-11-25-auftragsvergabe-durch-die-kreditanstalt-f-r-wiederaufbau-f-r-projekte-der-finanz-8d140e952fe2.md"
+    },
+    {
       "report_key": "8cfb6865258aa1b51acf7f9805dbb0857672dd5fb8caaec86001401526812e1f",
       "identity_value": "Prüfung des Stiftungsberichts des Bundes\n20.11.2025",
       "title": "Prüfung des Stiftungsberichts des Bundes",
@@ -602,6 +773,15 @@
       "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/delegationsreisen-volltext.pdf?__blob=publicationFile&v=4",
       "summary": "Abschließende Mitteilung an das Sekretariat des Bundesrates",
       "markdown_path": "reports/markdown/2025/2025-10-28-delegationsreisen-der-bundesratspr-sidentinnen-und-pr-sidenten-ins-ausland.md"
+    },
+    {
+      "report_key": "9df2379b861b655e823914ab2abd77c617728c83945bc31488d3ab20a45582a3",
+      "identity_value": "Förderung der Jungendorganisationen der politischen Parteien\n27.10.2025",
+      "title": "Förderung der Jungendorganisationen der politischen Parteien",
+      "published_on": "27.10.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/foerderung-jugendorganisationen-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Bildung, Senioren, Frauen und Jugend",
+      "markdown_path": "reports/markdown/2025/2025-10-27-f-rderung-der-jungendorganisationen-der-politischen-parteien.md"
     },
     {
       "report_key": "9eb47a3146ae92305e8c994dea5e1b2de98469e8627212b5f797a2a19963c89e",
@@ -755,6 +935,15 @@
       "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/einzelplan-2026/05-volltext.pdf?__blob=publicationFile&v=2",
       "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
       "markdown_path": "reports/markdown/2025/2025-09-23-information-ber-die-entwicklung-des-einzelplans-05-auswa-rtiges-amt-f-r-die-beratungen-zum-bundeshaushalt-2026.md"
+    },
+    {
+      "report_key": "9481fdbf3334d72274a758bd2e18f408920c59734870c7a88b7e7cf9070032ac",
+      "identity_value": "Umsetzung des Arbeitspapiers des Bundesministeriums für Arbeit und Soziales vom 10. April 2019 \"Bedarfe für Unterkunft und Heizung in der besonderen Wohnform ab dem 1. Januar 2020 nach §42a Absatz 5 und 6 SGB XII\"\n22.09.2025",
+      "title": "Umsetzung des Arbeitspapiers des Bundesministeriums für Arbeit und Soziales vom 10. April 2019 \"Bedarfe für Unterkunft und Heizung in der besonderen Wohnform ab dem 1. Januar 2020 nach §42a Absatz 5 und 6 SGB XII\"",
+      "published_on": "22.09.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/umsetzung-arbeitspapier-bmas-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für Arbeit und Soziales",
+      "markdown_path": "reports/markdown/2025/2025-09-22-umsetzung-des-arbeitspapiers-des-bundesministeriums-f-r-arbeit-und-soziales-vom--9481fdbf3334.md"
     },
     {
       "report_key": "0ea4d125a3838ba42ed956c92de2fca5327c6b003ec3507a755c15671e6682cf",
@@ -1333,6 +1522,15 @@
       "markdown_path": "reports/markdown/2025/2025-07-02-haftung-nach-den-vorschriften-der-abgabenordnung-teil-haftungsprivileg.md"
     },
     {
+      "report_key": "7ef9ddf3d6bb4f796683118765d4b7aee3aaada52c27fbdce76d2d5dbbe2cc27",
+      "identity_value": "Förderung nicht abschlussorientierter Weiterbildungen durch die Bundesagentur für Arbeit nach § 81 SGB III\n30.06.2025",
+      "title": "Förderung nicht abschlussorientierter Weiterbildungen durch die Bundesagentur für Arbeit nach § 81 SGB III",
+      "published_on": "30.06.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/abschlussorientierte-weiterbildungen-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an den Vorstand der Bundesagentur für Arbeit",
+      "markdown_path": "reports/markdown/2025/2025-06-30-f-rderung-nicht-abschlussorientierter-weiterbildungen-durch-die-bundesagentur-f--7ef9ddf3d6bb.md"
+    },
+    {
       "report_key": "7baa18acc14d89eb8a72e55a364a8f446ed1587a8280aebda0196b29e0461316",
       "identity_value": "Ausgaben für das Förderprogramm „Klimaanpassung in sozialen Einrichtungen“ (Fassung 2020) in den Jahren 2020 bis 2023 - Kapitel 1601 Titel 685 01 - Teil III: Geförderte Vorhaben\n30.06.2025",
       "title": "Ausgaben für das Förderprogramm „Klimaanpassung in sozialen Einrichtungen“ (Fassung 2020) in den Jahren 2020 bis 2023 - Kapitel 1601 Titel 685 01 - Teil III: Geförderte Vorhaben",
@@ -1412,6 +1610,15 @@
       "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2025/internationale-energiezusammenarbeit-volltext.pdf?__blob=publicationFile&v=2",
       "summary": "Abschließende Prüfungsmitteilung an das Bundesministerium für Wirtschaft und Energie",
       "markdown_path": "reports/markdown/2025/2025-06-13-internationale-energiezusammenarbeit-kapitel-6092-titel-687-02.md"
+    },
+    {
+      "report_key": "a2b925de954ad8837dad6a61c8c5f55372be91c80d579aefdce2faad313753f9",
+      "identity_value": "Besetzung des Aufsichtsrats der Deutschen Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH – Teil II - Anforderungsprofil\n12.06.2025",
+      "title": "Besetzung des Aufsichtsrats der Deutschen Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH – Teil II - Anforderungsprofil",
+      "published_on": "12.06.2025",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/giz-ar-2-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "markdown_path": "reports/markdown/2025/2025-06-12-besetzung-des-aufsichtsrats-der-deutschen-gesellschaft-fu-r-internationale-zusam-a2b925de954a.md"
     },
     {
       "report_key": "d8deec8211a5fff9320e262eb559b2665a63f900ee9564a64f3588937c501efa",
@@ -2186,6 +2393,15 @@
       "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2024/satzungs%C3%A4nderung-eib-volltext.pdf?__blob=publicationFile&v=2",
       "summary": "Beratungsbericht an den Haushaltsausschuss des Deutschen Bundestages",
       "markdown_path": "reports/markdown/2024/2024-12-03-auswirkungen-der-geplanten-nderung-der-satzung-der-europ-ischen-investitionsbank-864e476b9496.md"
+    },
+    {
+      "report_key": "c3971a134b4ea6517cc841d5c75eb57c6664f7e8cc445b769a7db4dffdde3a96",
+      "identity_value": "Besetzung des Aufsichtsrats der Deutschen Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH\n26.11.2024",
+      "title": "Besetzung des Aufsichtsrats der Deutschen Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH",
+      "published_on": "26.11.2024",
+      "pdf_url": "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2026/giz-ar-1-volltext.pdf?__blob=publicationFile&v=2",
+      "summary": "Abschließende Mitteilung an das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "markdown_path": "reports/markdown/2024/2024-11-26-besetzung-des-aufsichtsrats-der-deutschen-gesellschaft-fu-r-internationale-zusam-c3971a134b4e.md"
     },
     {
       "report_key": "73ddbc0a842974062709e0eefbba4df481502074f48a2d97be722dc13b49e5ca",
